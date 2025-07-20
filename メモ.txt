@@ -1,0 +1,22 @@
+# バージョン
+npx create-next-app@latest
+create-next-app@15.4.2
+
+# prettier plugin tailwindcss
+npm install -D prettier prettier-plugin-tailwindcss
+.prettierrcを作成
+
+# デフォルトのカラー
+ライト
+背景 #ffffff
+文字 #171717
+
+ダーク
+背景 #0a0a0a
+文字 #ededed
+
+# tailwindcssメモ
+container -> max-widthをよしなにしてくれる。mx-autoと一緒に使うことで、真ん中寄せなので神になる。
+*:h-64
+[&>*]:h-64
+は書き方の違いで、同じ意味
