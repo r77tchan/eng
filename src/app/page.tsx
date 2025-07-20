@@ -7,7 +7,7 @@ export default function Home() {
         English learning website for me
       </h1>
       <p className="px-4 pt-4">
-        It's still in the testing phase, but I aim to make it publicly available
+        It&apos;s still in the testing phase, but I aim to make it publicly available
         in the future.
       </p>
       <div className="container mx-auto flex flex-wrap *:h-64 *:min-w-96 *:flex-1/2">
