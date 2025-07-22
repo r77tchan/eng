@@ -28,12 +28,13 @@ async function getBookData(id: string) {
 }
 
 type Props = {
-  params: { id: string };
+  params: Promise<{ id: string }>;
 };
 
 export default async function BookTableOfContents({ params }: Props) {
   try {
-    const bookData = await getBookData(params.id);
+    const { id } = await params;
+    const bookData = await getBookData(id);
     return <TableOfContentsView bookData={bookData} />;
   } catch (error) {
     notFound();

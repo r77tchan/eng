@@ -53,14 +53,15 @@ async function getData(id: string, page: string) {
 }
 
 type Props = {
-  params: { id: string; page: string };
+  params: Promise<{ id: string; page: string }>;
 };
 
 // ページコンポーネント
 export default async function BookPage({ params }: Props) {
   try {
-    const { bookData, pageData } = await getData(params.id, params.page);
-    return <BookPageView bookData={bookData} pageData={pageData} params={params} />;
+    const { id, page } = await params;
+    const { bookData, pageData } = await getData(id, page);
+    return <BookPageView bookData={bookData} pageData={pageData} params={{ id, page }} />;
   } catch (error) {
     // getData内でnotFoundが呼ばれるが、import自体が失敗する可能性もある
     notFound();
