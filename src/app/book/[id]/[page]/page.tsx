@@ -28,32 +28,41 @@ interface BookData {
 
 // ビルド時に静的生成するページの全組み合わせを定義
 export async function generateStaticParams() {
-  const params: { id: string; page: string }[] = [];
-  for (const book of books) {
-    const { bookData }: { bookData: BookData } = await import(`@/lib/data/${book.id}.ts`);
-    for (let i = 1; i <= bookData.pages.length; i++) {
-      params.push({ id: book.id.toString(), page: i.toString() });
-    }
-  }
-  return params;
+  const allParams = await Promise.all(
+    books.map(async (book) => {
+      const { bookData }: { bookData: BookData } = await import(`@/lib/data/${book.id}.ts`);
+      return bookData.pages.map((page) => ({
+        id: book.id.toString(),
+        page: page.page.toString(),
+      }));
+    })
+  );
+  return allParams.flat();
 }
 
+// データ取得ヘルパー関数
+async function getData(id: string, page: string) {
+  const { bookData }: { bookData: BookData } = await import(`@/lib/data/${id}.ts`);
+  const pageData = bookData.pages.find(
+    (p: Page) => p.page.toString() === page
+  );
+  if (!pageData) {
+    notFound();
+  }
+  return { bookData, pageData };
+}
+
+type Props = {
+  params: { id: string; page: string };
+};
+
 // ページコンポーネント
-export default async function BookPage({ params }: { params: { id: string; page: string } }) {
+export default async function BookPage({ params }: Props) {
   try {
-    const { bookData }: { bookData: BookData } = await import(`@/lib/data/${params.id}.ts`);
-
-    const pageData = bookData.pages.find(
-      (p: Page) => p.page.toString() === params.page
-    );
-
-    if (!pageData) {
-      notFound();
-    }
-
+    const { bookData, pageData } = await getData(params.id, params.page);
     return <BookPageView bookData={bookData} pageData={pageData} params={params} />;
   } catch (error) {
-    console.error(error);
+    // getData内でnotFoundが呼ばれるが、import自体が失敗する可能性もある
     notFound();
   }
 }

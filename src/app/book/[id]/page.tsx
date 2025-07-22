@@ -3,7 +3,7 @@ import { notFound } from "next/navigation";
 import TableOfContentsView from "@/components/TableOfContentsView";
 
 // ビルド時に静的生成する本のIDを定義
-export async function generateStaticParams() {
+export function generateStaticParams() {
   return books.map((book) => ({
     id: book.id.toString(),
   }));
@@ -21,10 +21,19 @@ interface BookData {
 }
 // --- END NEW DATA STRUCTURES ---
 
-export default async function BookTableOfContents({ params }: { params: { id: string } }) {
-  try {
-    const { bookData }: { bookData: BookData } = await import(`@/lib/data/${params.id}.ts`);
+// データ取得ヘルパー関数
+async function getBookData(id: string) {
+  const { bookData }: { bookData: BookData } = await import(`@/lib/data/${id}.ts`);
+  return bookData;
+}
 
+type Props = {
+  params: { id: string };
+};
+
+export default async function BookTableOfContents({ params }: Props) {
+  try {
+    const bookData = await getBookData(params.id);
     return <TableOfContentsView bookData={bookData} />;
   } catch (error) {
     notFound();
