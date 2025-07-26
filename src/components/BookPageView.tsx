@@ -35,12 +35,30 @@ interface BookPageViewProps {
 
 export default function BookPageView({ bookData, pageData, params }: BookPageViewProps) {
   const [isJapaneseVisible, setIsJapaneseVisible] = useState<boolean[]>([]);
+  const [activeTooltip, setActiveTooltip] = useState<string | null>(null);
 
   useEffect(() => {
     if (pageData) {
       setIsJapaneseVisible(Array(pageData.content.length).fill(false));
     }
   }, [pageData]);
+
+  // Effect to handle clicks outside of the tooltip-triggering elements
+  useEffect(() => {
+    const handleClickOutside = (event: MouseEvent) => {
+      const target = event.target as HTMLElement;
+      // If the click is outside a tooltip trigger, close the active tooltip.
+      if (target.closest("[data-tooltip-trigger]") === null) {
+        setActiveTooltip(null);
+      }
+    };
+
+    document.addEventListener("mousedown", handleClickOutside);
+    return () => {
+      document.removeEventListener("mousedown", handleClickOutside);
+    };
+  }, []);
+
 
   const toggleJapaneseVisibility = (index: number) => {
     setIsJapaneseVisible((prev) => {
@@ -65,15 +83,23 @@ export default function BookPageView({ bookData, pageData, params }: BookPageVie
               {line.segments.map((segment, segmentIndex) => {
                 const nextSegment = line.segments[segmentIndex + 1];
                 const nextIsPunctuation = nextSegment && /^[.,!?;:'"]/.test(nextSegment.text);
+                const tooltipId = `${lineIndex}-${segmentIndex}`;
+                const isTooltipActive = activeTooltip === tooltipId;
 
                 return (
                   <React.Fragment key={segmentIndex}>
                     <span
+                      data-tooltip-trigger
                       className={`rounded ${
                         segment.translation
                           ? "group relative cursor-pointer hover:bg-yellow-100"
                           : "cursor-default"
                       }`}
+                      onClick={() => {
+                        if (segment.translation) {
+                          setActiveTooltip((prev) => (prev === tooltipId ? null : tooltipId));
+                        }
+                      }}
                     >
                       <span
                         className={
@@ -85,12 +111,16 @@ export default function BookPageView({ bookData, pageData, params }: BookPageVie
                         {segment.text}
                       </span>
                       {segment.translation && (
-                        <span className="absolute bottom-full mb-2 hidden w-max max-w-xs group-hover:block bg-gray-800 text-white text-sm rounded py-1 px-3 shadow-lg z-10">
+                        <span
+                          className={`absolute bottom-full z-10 mb-2 w-max max-w-xs rounded bg-gray-800 px-3 py-1 text-sm text-white shadow-lg ${
+                            isTooltipActive ? "block" : "hidden"
+                          } md:group-hover:block`}
+                        >
                           {segment.translation}
                         </span>
                       )}
                     </span>
-                    {segmentIndex < line.segments.length - 1 && !nextIsPunctuation && ' '}
+                    {segmentIndex < line.segments.length - 1 && !nextIsPunctuation && " "}
                   </React.Fragment>
                 );
               })}
