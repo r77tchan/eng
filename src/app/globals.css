@@ -4,12 +4,22 @@
   --background: #ffffff;
   --foreground: #000000;
   --bar: #000000;
+  --red1: #fef2f2;
+  --red2: #ffc9c9;
+  --blue1: #eff6ff;
+  --blue2: #bedbff;
+  --hover: #fffbeb;
 }
 
 @theme inline {
   --color-background: var(--background);
   --color-foreground: var(--foreground);
   --color-bar: var(--bar);
+  --color-red1: var(--red1);
+  --color-red2: var(--red2);
+  --color-blue1: var(--blue1);
+  --color-blue2: var(--blue2);
+  --color-hover: var(--hover);
   --font-sans: var(--font-geist-sans);
   --font-mono: var(--font-geist-mono);
 }
@@ -19,6 +29,11 @@
     --background: #000000;
     --foreground: #ffffff;
     --bar: #1e2939;
+    --red1: #640125;
+    --red2: #d48c8c;
+    --blue1: #1e3a8a;
+    --blue2: #60a5fa;
+    --hover: #5c461d;
   }
 }
 

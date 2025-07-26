@@ -11,7 +11,7 @@ export default function BookPage() {
           <Link
             key={book.id}
             href={`/book/${book.id}`}
-            className="block border p-4 transition-all duration-200 hover:-translate-y-1 hover:bg-amber-50 hover:shadow-lg"
+            className="hover:bg-hover block border p-4 transition-all duration-200 hover:-translate-y-1 hover:shadow-lg"
           >
             {book.title}
           </Link>

@@ -9,18 +9,18 @@ export default function Home() {
         in the future.
       </p>
       <div className="grid grid-cols-1 gap-8 pb-4 lg:grid-cols-2">
-        <div className="rounded bg-red-50 text-center outline">
+        <div className="bg-red1 rounded text-center outline">
           <h2 className="px-4 py-8 text-2xl font-bold">Learn by Reading</h2>
           <Link
             href="/book"
-            className="mb-12 inline-block rounded border bg-red-200 px-8 py-4 font-bold transition-all duration-75 hover:bg-amber-50 hover:shadow-lg"
+            className="bg-red2 hover:bg-hover mb-12 inline-block rounded border px-8 py-4 font-bold transition-all duration-75 hover:shadow-lg"
           >
             Go to Book List
           </Link>
         </div>
-        <div className="rounded bg-blue-50 text-center outline">
+        <div className="bg-blue1 rounded text-center outline">
           <h2 className="px-4 py-8 text-2xl font-bold">Learn by Typing</h2>
-          <span className="mb-12 inline-block cursor-not-allowed rounded border px-8 py-4 font-bold">
+          <span className="bg-blue2 mb-12 inline-block cursor-not-allowed rounded border px-8 py-4 font-bold">
             Coming Soon
           </span>
         </div>
