@@ -5,17 +5,17 @@ export default function Header() {
     <header className="bg-bar text-white">
       <div className="container mx-auto flex items-center justify-between">
         <div className="text-lg font-bold">
-          <Link href="/" className="block p-4">
+          <Link href="/" className="block p-4 hover:bg-gray-500">
             r77tchan.github.io/eng
           </Link>
         </div>
         <nav>
           <ul className="flex">
-            <li>
+            {/* <li>
               <Link href="/" className="block p-4">
                 Settings
               </Link>
-            </li>
+            </li> */}
           </ul>
         </nav>
       </div>

@@ -33,7 +33,11 @@ interface BookPageViewProps {
   params: { id: string; page: string };
 }
 
-export default function BookPageView({ bookData, pageData, params }: BookPageViewProps) {
+export default function BookPageView({
+  bookData,
+  pageData,
+  params,
+}: BookPageViewProps) {
   const [isJapaneseVisible, setIsJapaneseVisible] = useState<boolean[]>([]);
   const [activeTooltip, setActiveTooltip] = useState<string | null>(null);
 
@@ -59,7 +63,6 @@ export default function BookPageView({ bookData, pageData, params }: BookPageVie
     };
   }, []);
 
-
   const toggleJapaneseVisibility = (index: number) => {
     setIsJapaneseVisible((prev) => {
       const newState = [...prev];
@@ -76,13 +79,14 @@ export default function BookPageView({ bookData, pageData, params }: BookPageVie
       <h1 className="px-4 pt-4 text-2xl font-bold">{bookData.title}</h1>
       <h2 className="px-4 pt-2 text-xl">Page {pageData.page}</h2>
 
-      <div className="px-4 pt-6 space-y-8">
+      <div className="space-y-8 px-4 pt-6">
         {pageData.content.map((line, lineIndex) => (
           <div key={lineIndex}>
             <p className="text-lg">
               {line.segments.map((segment, segmentIndex) => {
                 const nextSegment = line.segments[segmentIndex + 1];
-                const nextIsPunctuation = nextSegment && /^[.,!?;:'"]/.test(nextSegment.text);
+                const nextIsPunctuation =
+                  nextSegment && /^[.,!?;:'"]/.test(nextSegment.text);
                 const tooltipId = `${lineIndex}-${segmentIndex}`;
                 const isTooltipActive = activeTooltip === tooltipId;
 
@@ -97,7 +101,9 @@ export default function BookPageView({ bookData, pageData, params }: BookPageVie
                       }`}
                       onClick={() => {
                         if (segment.translation) {
-                          setActiveTooltip((prev) => (prev === tooltipId ? null : tooltipId));
+                          setActiveTooltip((prev) =>
+                            prev === tooltipId ? null : tooltipId,
+                          );
                         }
                       }}
                     >
@@ -120,19 +126,23 @@ export default function BookPageView({ bookData, pageData, params }: BookPageVie
                         </span>
                       )}
                     </span>
-                    {segmentIndex < line.segments.length - 1 && !nextIsPunctuation && " "}
+                    {segmentIndex < line.segments.length - 1 &&
+                      !nextIsPunctuation &&
+                      " "}
                   </React.Fragment>
                 );
               })}
             </p>
             <div
-              className="mt-2 cursor-pointer bg-gray-100 hover:bg-gray-200 p-2 rounded"
+              className="mt-2 cursor-pointer rounded bg-gray-100 p-2 hover:bg-gray-200"
               onClick={() => toggleJapaneseVisibility(lineIndex)}
             >
-              <p className="text-center text-sm text-gray-500">▼ 日本語訳を見る</p>
+              <p className="text-center text-sm text-gray-500">
+                ▼ 日本語訳を見る
+              </p>
             </div>
             {isJapaneseVisible[lineIndex] && (
-              <div className="mt-2 p-4 bg-gray-50 rounded">
+              <div className="mt-2 rounded bg-gray-50 p-4">
                 <p className="text-base text-gray-800">{line.japanese}</p>
               </div>
             )}
@@ -140,16 +150,22 @@ export default function BookPageView({ bookData, pageData, params }: BookPageVie
         ))}
       </div>
 
-      <div className="flex justify-between px-4 pt-8 mt-8 border-t">
+      <div className="mt-8 flex justify-between border-t px-4 pt-8">
         {currentPage > 1 ? (
-          <Link href={`/book/${bookData.id}/${currentPage - 1}`} className="text-blue-600 hover:underline">
+          <Link
+            href={`/book/${bookData.id}/${currentPage - 1}`}
+            className="text-blue-600 hover:underline"
+          >
             &larr; Previous Page
           </Link>
         ) : (
           <div />
         )}
         {currentPage < totalPages ? (
-          <Link href={`/book/${bookData.id}/${currentPage + 1}`} className="text-blue-600 hover:underline">
+          <Link
+            href={`/book/${bookData.id}/${currentPage + 1}`}
+            className="text-blue-600 hover:underline"
+          >
             Next Page &rarr;
           </Link>
         ) : (
@@ -158,7 +174,12 @@ export default function BookPageView({ bookData, pageData, params }: BookPageVie
       </div>
 
       <div className="px-4 pt-8">
-        <Link href={`/book/${bookData.id}`} className="text-blue-600 hover:underline">Back to Table of Contents</Link>
+        <Link
+          href={`/book/${bookData.id}`}
+          className="text-blue-600 hover:underline"
+        >
+          Back to Table of Contents
+        </Link>
       </div>
     </div>
   );

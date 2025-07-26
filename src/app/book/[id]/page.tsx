@@ -23,7 +23,9 @@ interface BookData {
 
 // データ取得ヘルパー関数
 async function getBookData(id: string) {
-  const { bookData }: { bookData: BookData } = await import(`@/lib/data/${id}.ts`);
+  const { bookData }: { bookData: BookData } = await import(
+    `@/lib/data/${id}.ts`
+  );
   return bookData;
 }
 
