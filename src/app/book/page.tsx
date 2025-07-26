@@ -5,10 +5,14 @@ import { books } from "@/lib/data/index";
 export default function BookPage() {
   return (
     <main className="container mx-auto min-h-screen">
-      <h1 className="px-4 pt-4 text-2xl font-bold">Book List</h1>
-      <div className="flex px-4 pt-4 *:block *:border">
+      <h1 className="px-4 py-4 text-2xl font-bold">Book List</h1>
+      <div className="grid grid-cols-1 gap-4 px-4 pb-4 sm:grid-cols-2 lg:grid-cols-3">
         {books.map((book) => (
-          <Link key={book.id} href={`/book/${book.id}`}>
+          <Link
+            key={book.id}
+            href={`/book/${book.id}`}
+            className="block border p-4 transition-all duration-200 hover:-translate-y-1 hover:bg-amber-50 hover:shadow-lg"
+          >
             {book.title}
           </Link>
         ))}

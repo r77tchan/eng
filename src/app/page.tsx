@@ -3,22 +3,26 @@ import Link from "next/link";
 export default function Home() {
   return (
     <main className="container mx-auto min-h-screen">
-      <h1 className="px-4 pt-4 text-2xl font-bold">
-        English learning website for me
-      </h1>
-      <p className="px-4 pt-4">
-        It&apos;s still in the testing phase, but I aim to make it publicly available
+      <h1 className="p-4 text-2xl font-bold">My English Learning Website</h1>
+      <p className="px-4 pb-4">
+        It&apos;s still in the testing phase, but I hope to release it publicly
         in the future.
       </p>
-      <div className="container mx-auto flex flex-wrap *:h-64 *:min-w-96 *:flex-1/2">
-        <div className="bg-red-300">
-          <Link href="/book" className="flex h-full flex-col bg-yellow-200">
-            <span className="border">Learning through reading</span>
-            <span className="border">Book List</span>
+      <div className="grid grid-cols-1 gap-8 pb-4 lg:grid-cols-2">
+        <div className="rounded bg-red-50 text-center outline">
+          <h2 className="px-4 py-8 text-2xl font-bold">Learn by Reading</h2>
+          <Link
+            href="/book"
+            className="mb-12 inline-block rounded border bg-red-200 px-8 py-4 font-bold transition-all duration-75 hover:bg-amber-50 hover:shadow-lg"
+          >
+            Go to Book List
           </Link>
         </div>
-        <div className="bg-blue-300">
-          <span>in preparation</span>
+        <div className="rounded bg-blue-50 text-center outline">
+          <h2 className="px-4 py-8 text-2xl font-bold">Learn by Typing</h2>
+          <span className="mb-12 inline-block cursor-not-allowed rounded border px-8 py-4 font-bold">
+            Coming Soon
+          </span>
         </div>
       </div>
     </main>
