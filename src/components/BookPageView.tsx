@@ -41,17 +41,17 @@ export default function BookPageView({
   const [isJapaneseVisible, setIsJapaneseVisible] = useState<boolean[]>([]);
   const [activeTooltip, setActiveTooltip] = useState<string | null>(null);
 
+  // ページが変わったら、全ての訳を非表示に初期化
   useEffect(() => {
     if (pageData) {
       setIsJapaneseVisible(Array(pageData.content.length).fill(false));
     }
   }, [pageData]);
 
-  // Effect to handle clicks outside of the tooltip-triggering elements
+  // 画面のどこかをクリックしたときに、ツールチップが閉じるようにする処理
   useEffect(() => {
     const handleClickOutside = (event: MouseEvent) => {
       const target = event.target as HTMLElement;
-      // If the click is outside a tooltip trigger, close the active tooltip.
       if (target.closest("[data-tooltip-trigger]") === null) {
         setActiveTooltip(null);
       }
