@@ -32,5 +32,5 @@ translationはなくてもいいの。
 の181行目から、最大で446行目まで翻訳の続きを行なってほしい。
 翻訳先は、
 @/Users/asakawatatsuya/Desktop/one/React/eng/src/lib/data/1.ts
-の2275行目の下に追加していく感じだね。（page2じゃなくて、page1のcontent内ね）
+の2275行目の下に追加していく感じだね。（page1のcontentに新しい要素として追加する感じ）
 他に倣って、単語ごとの翻訳をして欲しい。スペースの入れ方とか、合わせてね。1文につき1つのcontentだよ。
