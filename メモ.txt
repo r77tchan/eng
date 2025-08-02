@@ -20,3 +20,10 @@ container -> max-widthをよしなにしてくれる。mx-autoと一緒に使う
 *:h-64
 [&>*]:h-64
 は書き方の違いで、同じ意味
+
+# 指示メモ
+@/Users/asakawatatsuya/Desktop/one/React/eng/src/lib/data/1.tsの、932行目から、segmentsを記述して欲しい。
+他に倣って、単語ごとの翻訳をして欲しい。
+スペースの入れ方とか、合わせてね。
+englishっていうプロパティは実際には使用されてなくて、textプロパティのみが使用されてる。
+translationはなくてもいいの。
