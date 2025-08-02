@@ -1,13 +1,13 @@
 export const bookData = {
   id: 1,
-  title: "The Adventures of Tom Sawyer",
+  title: "Harry Potter and the Sorcerer’s Stone",
   pages: [
     {
       page: 1,
       content: [
         {
-          english: "Chapter 1: Tom Plays, Fights, and Hides.",
-          japanese: "第1章 トム、遊び、戦い、そして隠れる。",
+          english: "The Boy Who Lived",
+          japanese: "",
           segments: [
             { text: "Chapter 1", translation: "第1章" },
             { text: ": Tom " },
@@ -16,55 +16,75 @@ export const bookData = {
             { text: "Fights", translation: "戦う" },
             { text: ", and " },
             { text: "Hides", translation: "隠れる" },
-            { text: "." }
-          ]
+            { text: "." },
+          ],
         },
         {
-          english: "It was a fine morning, and the sun was shining.",
-          japanese: "素晴らしい朝で、太陽が輝いていた。",
+          english:
+            "Mr. and Mrs. Dursley, of number four, Privet Drive, were proud to say that they were perfectly normal, thank you very much.",
+          japanese: "",
           segments: [
-            { text: "It was a fine morning", translation: "素晴らしい朝だった" },
+            {
+              text: "It was a fine morning",
+              translation: "素晴らしい朝だった",
+            },
             { text: ", and the " },
             { text: "sun", translation: "太陽" },
             { text: " was " },
             { text: "shining", translation: "輝いていた" },
-            { text: "." }
-          ]
-        }
-      ]
+            { text: "." },
+          ],
+        },
+        {
+          english:
+            "They were the last people you’d expect to be involved in anything strange or mysterious, because they just didn’t hold with such nonsense.",
+          japanese: "",
+          segments: [
+            {
+              text: "It was a fine morning",
+              translation: "素晴らしい朝だった",
+            },
+            { text: ", and the " },
+            { text: "sun", translation: "太陽" },
+            { text: " was " },
+            { text: "shining", translation: "輝いていた" },
+            { text: "." },
+          ],
+        },
+      ],
     },
     {
       page: 2,
       content: [
         {
-          english: "Aunt Polly was vexed, and called out, \"Tom!\"",
-          japanese: "ポリーおばさんは腹を立てて叫んだ、「トム！」",
+          english: "The Vanishing Glass",
+          japanese: "",
           segments: [
             { text: "Aunt Polly", translation: "ポリーおばさん" },
             { text: " was " },
             { text: "vexed", translation: "腹を立てた" },
             { text: ", and " },
             { text: "called out", translation: "叫んだ" },
-            { text: ", \"Tom!\"" }
-          ]
-        }
-      ]
+            { text: ', "Tom!"' },
+          ],
+        },
+      ],
     },
     {
       page: 3,
       content: [
         {
-          english: "He was not in the house. He was not in the yard.",
-          japanese: "彼は家にはいなかった。庭にもいなかった。",
+          english: "The Letters from No One",
+          japanese: "",
           segments: [
             { text: "He was not in the " },
             { text: "house", translation: "家" },
             { text: ". He was not in the " },
             { text: "yard", translation: "庭" },
-            { text: "." }
-          ]
-        }
-      ]
-    }
-  ]
+            { text: "." },
+          ],
+        },
+      ],
+    },
+  ],
 };
