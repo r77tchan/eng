@@ -12,9 +12,9 @@ export default function TableOfContentsView({
 }: TableOfContentsViewProps) {
   return (
     <div className="container mx-auto min-h-screen">
-      <h1 className="px-4 pt-4 text-2xl font-bold">{bookData.title}</h1>
-      <h2 className="px-4 pt-2 text-xl">Table of Contents</h2>
-      <ul className="list-disc px-10 pt-4">
+      <h1 className="px-4 py-4 text-2xl font-bold">{bookData.title}</h1>
+      <h2 className="px-4 pb-4 text-xl">Table of Contents</h2>
+      <ul className="list-disc pr-4 pb-4 pl-10">
         {bookData.pages.map((page: Page) => (
           <li key={page.page}>
             <Link
@@ -27,7 +27,7 @@ export default function TableOfContentsView({
         ))}
       </ul>
 
-      <div className="px-4 pt-8">
+      <div className="px-4 pb-4">
         <Link href="/book" className="text-blue-600 hover:underline">
           Back to Book List
         </Link>

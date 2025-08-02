@@ -9,7 +9,10 @@ interface BookPageViewProps {
   pageData: Page;
 }
 
-export default function BookPageView({ bookData, pageData }: BookPageViewProps) {
+export default function BookPageView({
+  bookData,
+  pageData,
+}: BookPageViewProps) {
   const [isJapaneseVisible, setIsJapaneseVisible] = useState<boolean[]>([]);
   const [activeTooltip, setActiveTooltip] = useState<string | null>(null);
 
@@ -48,13 +51,13 @@ export default function BookPageView({ bookData, pageData }: BookPageViewProps) 
 
   return (
     <div className="container mx-auto min-h-screen">
-      <h1 className="px-4 pt-4 text-2xl font-bold">{bookData.title}</h1>
-      <h2 className="px-4 pt-2 text-xl">Page {pageData.page}</h2>
+      <h1 className="px-4 py-4 text-2xl font-bold">{bookData.title}</h1>
+      <h2 className="px-4 pb-4 text-xl">Page {pageData.page}</h2>
 
-      <div className="space-y-8 px-4 pt-6">
+      <div className="space-y-8 px-4 pb-4">
         {pageData.content.map((line, lineIndex) => (
           <div key={lineIndex}>
-            <p className="text-lg">
+            <p className="pb-2 text-lg">
               {line.segments.map((segment, segmentIndex) => {
                 const nextSegment = line.segments[segmentIndex + 1];
                 const nextIsPunctuation =
@@ -68,7 +71,7 @@ export default function BookPageView({ bookData, pageData }: BookPageViewProps) 
                       data-tooltip-trigger
                       className={`rounded ${
                         segment.translation
-                          ? "group relative cursor-pointer hover:bg-yellow-100"
+                          ? "group hover:bg-hover relative cursor-pointer"
                           : "cursor-default"
                       }`}
                       onClick={() => {
@@ -106,7 +109,7 @@ export default function BookPageView({ bookData, pageData }: BookPageViewProps) 
               })}
             </p>
             <div
-              className="mt-2 cursor-pointer rounded bg-gray-100 p-2 hover:bg-gray-200"
+              className="cursor-pointer rounded bg-gray-100 p-2 hover:bg-gray-200"
               onClick={() => toggleJapaneseVisibility(lineIndex)}
             >
               <p className="text-center text-sm text-gray-500">
@@ -145,7 +148,7 @@ export default function BookPageView({ bookData, pageData }: BookPageViewProps) 
         )}
       </div>
 
-      <div className="px-4 pt-8">
+      <div className="px-4 py-8">
         <Link
           href={`/book/${bookData.id}`}
           className="text-blue-600 hover:underline"
