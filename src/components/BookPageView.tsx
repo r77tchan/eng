@@ -2,42 +2,14 @@
 
 import React, { useState, useEffect } from "react";
 import Link from "next/link";
-
-// --- DATA STRUCTURES ---
-interface Segment {
-  text: string;
-  translation?: string;
-}
-
-interface Line {
-  english: string;
-  japanese: string;
-  segments: Segment[];
-}
-
-interface Page {
-  page: number;
-  content: Line[];
-}
-
-interface BookData {
-  id: number;
-  title: string;
-  pages: Page[];
-}
-// --- END DATA STRUCTURES ---
+import { BookData, Page } from "@/lib/types";
 
 interface BookPageViewProps {
   bookData: BookData;
   pageData: Page;
-  params: { id: string; page: string };
 }
 
-export default function BookPageView({
-  bookData,
-  pageData,
-  params,
-}: BookPageViewProps) {
+export default function BookPageView({ bookData, pageData }: BookPageViewProps) {
   const [isJapaneseVisible, setIsJapaneseVisible] = useState<boolean[]>([]);
   const [activeTooltip, setActiveTooltip] = useState<string | null>(null);
 

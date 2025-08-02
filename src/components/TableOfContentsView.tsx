@@ -1,18 +1,7 @@
 "use client";
 
 import Link from "next/link";
-
-// --- DATA STRUCTURES ---
-interface Page {
-  page: number;
-}
-
-interface BookData {
-  id: number;
-  title: string;
-  pages: Page[];
-}
-// --- END DATA STRUCTURES ---
+import { BookData, Page } from "@/lib/types";
 
 interface TableOfContentsViewProps {
   bookData: BookData;
