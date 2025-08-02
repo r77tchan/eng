@@ -1,30 +1,7 @@
 import { books } from "@/lib/data/index";
 import { notFound } from "next/navigation";
 import BookPageView from "@/components/BookPageView";
-
-// --- DATA STRUCTURES ---
-interface Segment {
-  text: string;
-  translation?: string;
-}
-
-interface Line {
-  english: string;
-  japanese: string;
-  segments: Segment[];
-}
-
-interface Page {
-  page: number;
-  content: Line[];
-}
-
-interface BookData {
-  id: number;
-  title: string;
-  pages: Page[];
-}
-// --- END DATA STRUCTURES ---
+import { BookData, Page } from "@/lib/types";
 
 // ビルド時に静的生成するページの全組み合わせを定義
 export async function generateStaticParams() {
