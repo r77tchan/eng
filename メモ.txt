@@ -6,6 +6,11 @@ create-next-app@15.4.2
 npm install -D prettier prettier-plugin-tailwindcss
 .prettierrcを作成
 
+// .prettierrc
+{
+  "plugins": ["prettier-plugin-tailwindcss"]
+}
+
 # デフォルトのカラー
 ライト
 背景 #ffffff
