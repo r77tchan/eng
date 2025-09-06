@@ -8,6 +8,8 @@
   --red2: #ffc9c9;
   --blue1: #eff6ff;
   --blue2: #bedbff;
+  --green1: #f0fdf4;
+  --green2: #bbf7d0;
   --hover: #fffbeb;
 }
 
@@ -19,6 +21,8 @@
   --color-red2: var(--red2);
   --color-blue1: var(--blue1);
   --color-blue2: var(--blue2);
+  --color-green1: var(--green1);
+  --color-green2: var(--green2);
   --color-hover: var(--hover);
   --font-sans: var(--font-geist-sans);
   --font-mono: var(--font-geist-mono);
@@ -33,6 +37,8 @@
     --red2: #d48c8c;
     --blue1: #1e3a8a;
     --blue2: #60a5fa;
+    --green1: #14532d;
+    --green2: #86efac;
     --hover: #5c461d;
   }
 }
