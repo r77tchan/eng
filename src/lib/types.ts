@@ -19,3 +19,9 @@ export interface BookData {
   title: string;
   pages: Page[];
 }
+
+export interface NewsData {
+  id: number;
+  title: Line;
+  content: Line[];
+}

@@ -1,3 +1,5 @@
+import { newsData } from "./news";
+
 export const books = [
   { id: 1, title: "Harry Potter and the Sorcerer’s Stone" },
   { id: 2, title: "Harry Potter and the Chamber of Secrets" },
@@ -7,3 +9,5 @@ export const books = [
   { id: 6, title: "Harry Potter and the Half-Blood Prince" },
   { id: 7, title: "Harry Potter and the Deathly Hallows" },
 ];
+
+export const news = newsData;

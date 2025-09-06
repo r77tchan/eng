@@ -1,0 +1,1231 @@
+import { NewsData } from "../../types";
+
+export const news6: NewsData = {
+    id: 6,
+    title: {
+      english: "Super Mario Bros. Wonder is a delightful return to form on Nintendo Switch",
+      japanese: "スーパーマリオブラザーズ ワンダーは、Nintendo Switchでの楽しい原点回帰です",
+      segments: [
+        { text: "Super Mario Bros. Wonder", translation: "スーパーマリオブラザーズ ワンダー" },
+        { text: " " },
+        { text: "is", translation: "は" },
+        { text: " " },
+        { text: "a delightful return to form", translation: "楽しい原点回帰です" },
+        { text: " " },
+        { text: "on", translation: "で" },
+        { text: " " },
+        { text: "Nintendo Switch", translation: "Nintendo Switch" },
+      ],
+    },
+    content: [
+      {
+        english: "Super Mario Bros. Wonder is the first new 2D Mario game in 10 years, and the first game in nearly 20 years that blazes its own trail to deliver the clever, dazzling and refreshing perspective that the series has so desperately needed for some time.",
+        japanese: "スーパーマリオブラザーズ ワンダーは、10年ぶりの新しい2Dマリオゲームであり、シリーズがしばらくの間切実に必要としていた、賢く、眩しく、新鮮な視点を提供するために独自の道を切り開いた、ほぼ20年ぶりの最初のゲームです。",
+        segments: [
+          { text: "Super Mario Bros. Wonder is", translation: "スーパーマリオブラザーズ ワンダーは" },
+          { text: " " },
+          { text: "the first new 2D Mario game", translation: "最初の新しい2Dマリオゲームです" },
+          { text: " " },
+          { text: "in 10 years", translation: "10年ぶり" },
+          { text: ", " },
+          { text: "and the first game in nearly 20 years", translation: "そしてほぼ20年ぶりの最初のゲーム" },
+          { text: " " },
+          { text: "that blazes its own trail", translation: "独自の道を切り開いた" },
+          { text: " " },
+          { text: "to deliver", translation: "提供するために" },
+          { text: " " },
+          { text: "the clever, dazzling and refreshing perspective", translation: "賢く、眩しく、新鮮な視点" },
+          { text: " " },
+          { text: "that the series has so desperately needed", translation: "シリーズが切実に必要としていた" },
+          { text: " " },
+          { text: "for some time", translation: "しばらくの間" },
+          { text: "." },
+        ]
+      },
+      {
+        english: "The game continually reinvents itself until its very last breath, breaking its own rules in wildly creative ways that push the envelope further and further, all while nailing exactly what’s made Mario a lastingly great series for the past 38 years.",
+        japanese: "このゲームは、最後の最後まで絶えず自己改革を続け、その独自のルールを非常に創造的な方法で破り、限界をさらに押し広げ、過去38年間マリオを永続的に素晴らしいシリーズにしてきたものを正確に釘付けにしています。",
+        segments: [
+          { text: "The game continually reinvents itself", translation: "このゲームは絶えず自己改革を続けます" },
+          { text: " " },
+          { text: "until its very last breath", translation: "最後の最後まで" },
+          { text: ", " },
+          { text: "breaking its own rules", translation: "独自のルールを破り" },
+          { text: " " },
+          { text: "in wildly creative ways", translation: "非常に創造的な方法で" },
+          { text: " " },
+          { text: "that push the envelope further and further", translation: "限界をさらに押し広げ" },
+          { text: ", " },
+          { text: "all while nailing exactly", translation: "正確に釘付けにしながら" },
+          { text: " " },
+          { text: "what’s made Mario a lastingly great series", translation: "マリオを永続的に素晴らしいシリーズにしたもの" },
+          { text: " " },
+          { text: "for the past 38 years", translation: "過去38年間" },
+          { text: "." },
+        ]
+      },
+      {
+        english: "Wonder takes a completely new approach to 2D Mario games, and adds loads of new gameplay and quality-of-life features, such as the Badge mechanic, which allows players to choose their own way to approach any given level or challenge.",
+        japanese: "ワンダーは2Dマリオゲームにまったく新しいアプローチを取り、バッジメカニックなどの新しいゲームプレイと生活の質の機能をたくさん追加します。これにより、プレイヤーは特定のレベルやチャレンジに取り組む独自の方法を選択できます。",
+        segments: [
+          { text: "Wonder takes a completely new approach", translation: "ワンダーはまったく新しいアプローチを取ります" },
+          { text: " " },
+          { text: "to 2D Mario games", translation: "2Dマリオゲームに" },
+          { text: ", " },
+          { text: "and adds loads of new gameplay and quality-of-life features", translation: "そして新しいゲームプレイと生活の質の機能をたくさん追加します" },
+          { text: ", " },
+          { text: "such as the Badge mechanic", translation: "バッジメカニックなど" },
+          { text: ", " },
+          { text: "which allows players to choose their own way", translation: "これにより、プレイヤーは独自の方法を選択できます" },
+          { text: " " },
+          { text: "to approach any given level or challenge", translation: "特定のレベルやチャレンジに取り組む" },
+          { text: "." },
+        ]
+      },
+      {
+        english: "Wonder Flowers are another exciting addition that give each level a bespoke challenge, puzzle or mechanic that helps to supplement the smooth jumping and running you’d expect in a Mario game.",
+        japanese: "ワンダーフラワーは、各レベルに特注のチャレンジ、パズル、またはメカニックを与え、マリオゲームで期待されるスムーズなジャンプとランニングを補完するのに役立つ、もう1つのエキサイティングな追加機能です。",
+        segments: [
+          { text: "Wonder Flowers are another exciting addition", translation: "ワンダーフラワーはもう1つのエキサイティングな追加機能です" },
+          { text: " " },
+          { text: "that give each level", translation: "各レベルに与える" },
+          { text: " " },
+          { text: "a bespoke challenge, puzzle or mechanic", translation: "特注のチャレンジ、パズル、またはメカニック" },
+          { text: " " },
+          { text: "that helps to supplement", translation: "補完するのに役立つ" },
+          { text: " " },
+          { text: "the smooth jumping and running", translation: "スムーズなジャンプとランニング" },
+          { text: " " },
+          { text: "you’d expect in a Mario game", translation: "マリオゲームで期待される" },
+          { text: "." },
+        ]
+      },
+      {
+        english: "Releasing exclusively for the Nintendo Switch family of systems on Oct. 20, Super Mario Bros. Wonder is a delightful adventure for the whole family.",
+        japanese: "10月20日にNintendo Switchファミリーのシステム専用にリリースされるスーパーマリオブラザーズワンダーは、家族全員で楽しめる楽しい冒険です。",
+        segments: [
+          { text: "Releasing exclusively for the Nintendo Switch family of systems", translation: "Nintendo Switchファミリーのシステム専用にリリースされる" },
+          { text: " " },
+          { text: "on Oct. 20", translation: "10月20日に" },
+          { text: ", " },
+          { text: "Super Mario Bros. Wonder is", translation: "スーパーマリオブラザーズワンダーは" },
+          { text: " " },
+          { text: "a delightful adventure", translation: "楽しい冒険です" },
+          { text: " " },
+          { text: "for the whole family", translation: "家族全員で楽しめる" },
+          { text: "." },
+        ]
+      },
+      {
+        english: "It should take most players between 10 and 20 hours to reach the end of the game, depending on their respective skill level.",
+        japanese: "ほとんどのプレイヤーは、それぞれのスキルレベルに応じて、ゲームの終わりに到達するまでに10〜20時間かかるはずです。",
+        segments: [
+          { text: "It should take most players", translation: "ほとんどのプレイヤーはかかるはずです" },
+          { text: " " },
+          { text: "between 10 and 20 hours", translation: "10〜20時間" },
+          { text: " " },
+          { text: "to reach the end of the game", translation: "ゲームの終わりに到達するまでに" },
+          { text: ", " },
+          { text: "depending on their respective skill level", translation: "それぞれのスキルレベルに応じて" },
+          { text: "." },
+        ]
+      },
+      {
+        english: "That said, it may take challenge-seekers a few more hours to find all of the secret endings, alternate paths and other hidden surprises stuffed into its dense 3.5GB of platforming goodness.",
+        japanese: "とはいえ、チャレンジを求める人が、その高密度の3.5GBのプラットフォームの良さに詰め込まれたすべての秘密のエンディング、代替パス、その他の隠された驚きを見つけるには、さらに数時間かかる場合があります。",
+        segments: [
+          { text: "That said", translation: "とはいえ" },
+          { text: ", " },
+          { text: "it may take challenge-seekers", translation: "チャレンジを求める人はかかる場合があります" },
+          { text: " " },
+          { text: "a few more hours", translation: "さらに数時間" },
+          { text: " " },
+          { text: "to find all of the secret endings, alternate paths and other hidden surprises", translation: "すべての秘密のエンディング、代替パス、その他の隠された驚きを見つけるには" },
+          { text: " " },
+          { text: "stuffed into its dense 3.5GB of platforming goodness", translation: "その高密度の3.5GBのプラットフォームの良さに詰め込まれた" },
+          { text: "." },
+        ]
+      },
+      {
+        english: "Wondering if this game’s for you? Here’s why we liked it so much.",
+        japanese: "このゲームがあなたに合っているか疑問に思っていますか？私たちがそれをとても気に入った理由は次のとおりです。",
+        segments: [
+          { text: "Wondering if this game’s for you?", translation: "このゲームがあなたに合っているか疑問に思っていますか？" },
+          { text: " " },
+          { text: "Here’s why we liked it so much", translation: "私たちがそれをとても気に入った理由は次のとおりです" },
+          { text: "." },
+        ]
+      },
+      {
+        english: "During the two-decade period since Mario’s last refresh, the platforming genre’s been shaken up, defined and redefined by small-budget, independent games like Braid, Super Meat Boy and Limbo.",
+        japanese: "マリオの最後のリフレッシュから20年間、プラットフォームジャンルは、ブレイド、スーパーミートボーイ、リンボなどの低予算の独立したゲームによって揺さぶられ、定義され、再定義されてきました。",
+        segments: [
+          { text: "During the two-decade period", translation: "20年間" },
+          { text: " " },
+          { text: "since Mario’s last refresh", translation: "マリオの最後のリフレッシュから" },
+          { text: ", " },
+          { text: "the platforming genre’s been shaken up, defined and redefined", translation: "プラットフォームジャンルは揺さぶられ、定義され、再定義されてきました" },
+          { text: " " },
+          { text: "by small-budget, independent games", translation: "低予算の独立したゲームによって" },
+          { text: " " },
+          { text: "like Braid, Super Meat Boy and Limbo", translation: "ブレイド、スーパーミートボーイ、リンボなど" },
+          { text: "." },
+        ]
+      },
+      {
+        english: "These titles opened up the floodgates for a revival of the genre that’s had a choke hold on independent gaming for over a decade.",
+        japanese: "これらのタイトルは、10年以上にわたって独立したゲームを抑制してきたジャンルの復活の門戸を開きました。",
+        segments: [
+          { text: "These titles opened up the floodgates", translation: "これらのタイトルは門戸を開きました" },
+          { text: " " },
+          { text: "for a revival of the genre", translation: "ジャンルの復活のために" },
+          { text: " " },
+          { text: "that’s had a choke hold on independent gaming", translation: "独立したゲームを抑制してきた" },
+          { text: " " },
+          { text: "for over a decade", translation: "10年以上にわたって" },
+          { text: "." },
+        ]
+      },
+      {
+        english: "Games like Celeste, Shovel Knight, Inside, Cuphead and plenty of others often ran circles around big-budget outings.",
+        japanese: "Celeste、Shovel Knight、Inside、Cupheadなどのゲームやその他多くのゲームは、しばしば高予算の作品を凌駕しました。",
+        segments: [
+          { text: "Games like Celeste, Shovel Knight, Inside, Cuphead and plenty of others", translation: "Celeste、Shovel Knight、Inside、Cupheadなどのゲームやその他多くのゲームは" },
+          { text: " " },
+          { text: "often ran circles around", translation: "しばしば凌駕しました" },
+          { text: " " },
+          { text: "big-budget outings", translation: "高予算の作品を" },
+          { text: "." },
+        ]
+      },
+      {
+        english: "The occasional Rayman, Donkey Kong Country or Sonic the Hedgehog game sometimes hit comparable highs but tended to lack the spark found in their small-budget counterparts overall.",
+        japanese: "時折のレイマン、ドンキーコングカントリー、またはソニック・ザ・ヘッジホッグのゲームは、同等の高みに達することもありましたが、全体として、低予算の対応するものに見られる輝きに欠ける傾向がありました。",
+        segments: [
+          { text: "The occasional Rayman, Donkey Kong Country or Sonic the Hedgehog game", translation: "時折のレイマン、ドンキーコングカントリー、またはソニック・ザ・ヘッジホッグのゲームは" },
+          { text: " " },
+          { text: "sometimes hit comparable highs", translation: "同等の高みに達することもありました" },
+          { text: " " },
+          { text: "but tended to lack the spark", translation: "しかし、輝きに欠ける傾向がありました" },
+          { text: " " },
+          { text: "found in their small-budget counterparts overall", translation: "全体として、低予算の対応するものに見られる" },
+          { text: "." },
+        ]
+      },
+      {
+        english: "This is especially true for the two-dimensional Mario games, which have looked, sounded and functioned so similarly that most people probably couldn’t tell them apart since New Super Mario Bros. was released for the Nintendo DS in 2006.",
+        japanese: "これは特に2次元のマリオゲームに当てはまります。2006年にニンテンドーDS向けにNewスーパーマリオブラザーズがリリースされて以来、見た目、音、機能が非常に似ているため、ほとんどの人はおそらくそれらを区別できませんでした。",
+        segments: [
+          { text: "This is especially true", translation: "これは特に当てはまります" },
+          { text: " " },
+          { text: "for the two-dimensional Mario games", translation: "2次元のマリオゲームに" },
+          { text: ", " },
+          { text: "which have looked, sounded and functioned so similarly", translation: "見た目、音、機能が非常に似ているため" },
+          { text: " " },
+          { text: "that most people probably couldn’t tell them apart", translation: "ほとんどの人はおそらくそれらを区別できませんでした" },
+          { text: " " },
+          { text: "since New Super Mario Bros. was released for the Nintendo DS in 2006", translation: "2006年にニンテンドーDS向けにNewスーパーマリオブラザーズがリリースされて以来" },
+          { text: "." },
+        ]
+      },
+      {
+        english: "Across four games — all released over roughly seven years — the New Super Mario Bros. series introduced some neat ideas to the franchise and offered some excellent platforming gameplay, but often lacked the same vitality and juice found in the games that came before it.",
+        japanese: "4つのゲーム（すべて約7年間にわたってリリースされた）にわたって、Newスーパーマリオブラザーズシリーズはフランチャイズにいくつかの素晴らしいアイデアを導入し、いくつかの優れたプラットフォームゲームプレイを提供しましたが、それ以前のゲームに見られたのと同じ活力とジュースに欠けていることがよくありました。",
+        segments: [
+          { text: "Across four games", translation: "4つのゲームにわたって" },
+          { text: " — " },
+          { text: "all released over roughly seven years", translation: "すべて約7年間にわたってリリースされた" },
+          { text: " — " },
+          { text: "the New Super Mario Bros. series introduced some neat ideas to the franchise", translation: "Newスーパーマリオブラザーズシリーズはフランチャイズにいくつかの素晴らしいアイデアを導入しました" },
+          { text: " " },
+          { text: "and offered some excellent platforming gameplay", translation: "そしていくつかの優れたプラットフォームゲームプレイを提供しました" },
+          { text: ", " },
+          { text: "but often lacked the same vitality and juice", translation: "しかし、同じ活力とジュースに欠けていることがよくありました" },
+          { text: " " },
+          { text: "found in the games that came before it", translation: "それ以前のゲームに見られた" },
+          { text: "." },
+        ]
+      },
+      {
+        english: "As a series that’s remained agile for so long, thanks to its ability to reinvent itself, 2D Mario games often felt like an afterthought compared to the 3D titles like Super Mario Odyssey or Galaxy, which maintained their radical bent.",
+        japanese: "自己改革能力のおかげで非常に長い間機敏であり続けたシリーズとして、2Dマリオゲームは、ラジカルな傾向を維持したスーパーマリオオデッセイやギャラクシーなどの3Dタイトルと比較して、しばしば後付けのように感じられました。",
+        segments: [
+          { text: "As a series that’s remained agile for so long", translation: "非常に長い間機敏であり続けたシリーズとして" },
+          { text: ", " },
+          { text: "thanks to its ability to reinvent itself", translation: "自己改革能力のおかげで" },
+          { text: ", " },
+          { text: "2D Mario games often felt like an afterthought", translation: "2Dマリオゲームはしばしば後付けのように感じられました" },
+          { text: " " },
+          { text: "compared to the 3D titles like Super Mario Odyssey or Galaxy", translation: "スーパーマリオオデッセイやギャラクシーなどの3Dタイトルと比較して" },
+          { text: ", " },
+          { text: "which maintained their radical bent", translation: "ラジカルな傾向を維持した" },
+          { text: "." },
+        ]
+      },
+      {
+        english: "In that regard, Wonder takes far more cues from recent 3D Mario games and does its own thing.",
+        japanese: "その点で、ワンダーは最近の3Dマリオゲームからより多くの手がかりを得て、独自のものを行っています。",
+        segments: [
+          { text: "In that regard", translation: "その点で" },
+          { text: ", " },
+          { text: "Wonder takes far more cues", translation: "ワンダーはより多くの手がかりを得ています" },
+          { text: " " },
+          { text: "from recent 3D Mario games", translation: "最近の3Dマリオゲームから" },
+          { text: " " },
+          { text: "and does its own thing", translation: "そして独自のものを行っています" },
+          { text: "." },
+        ]
+      },
+      {
+        english: "Mario games work best when they deftly jump from idea to idea, squeezing as much as possible from each fresh thought without making it stale before bounding on to their next trick.",
+        japanese: "マリオゲームは、アイデアからアイデアへと巧みにジャンプし、次のトリックに飛び乗る前に古くならないように、それぞれの新鮮な思考から可能な限り多くを絞り出すときに最も効果的に機能します。",
+        segments: [
+          { text: "Mario games work best", translation: "マリオゲームは最も効果的に機能します" },
+          { text: " " },
+          { text: "when they deftly jump from idea to idea", translation: "アイデアからアイデアへと巧みにジャンプするとき" },
+          { text: ", " },
+          { text: "squeezing as much as possible from each fresh thought", translation: "それぞれの新鮮な思考から可能な限り多くを絞り出す" },
+          { text: " " },
+          { text: "without making it stale", translation: "古くならないように" },
+          { text: " " },
+          { text: "before bounding on to their next trick", translation: "次のトリックに飛び乗る前に" },
+          { text: "." },
+        ]
+      },
+      {
+        english: "The Wonder Flower takes that idea and distills it into a winning formula.",
+        japanese: "ワンダーフラワーはそのアイデアを取り入れ、それを勝利の公式に蒸留します。",
+        segments: [
+          { text: "The Wonder Flower takes that idea", translation: "ワンダーフラワーはそのアイデアを取り入れます" },
+          { text: " " },
+          { text: "and distills it into a winning formula", translation: "そしてそれを勝利の公式に蒸留します" },
+          { text: "." },
+        ]
+      },
+      {
+        english: "Each level has its own Wonder Flower; sometimes they’re hidden behind a puzzle, while others might require some platforming savvy to reach.",
+        japanese: "各レベルには独自のワンダーフラワーがあります。パズルの後ろに隠されていることもあれば、到達するためにプラットフォームの知識が必要な場合もあります。",
+        segments: [
+          { text: "Each level has its own Wonder Flower", translation: "各レベルには独自のワンダーフラワーがあります" },
+          { text: "; " },
+          { text: "sometimes they’re hidden behind a puzzle", translation: "パズルの後ろに隠されていることもあります" },
+          { text: ", " },
+          { text: "while others might require some platforming savvy to reach", translation: "一方、到達するためにプラットフォームの知識が必要な場合もあります" },
+          { text: "." },
+        ]
+      },
+      {
+        english: "They’re rarely too difficult to spot, but even experienced players might need to take an extra crack or two at a level before actually getting their hands on any level’s Wonder Flower.",
+        japanese: "見つけるのはめったに難しくありませんが、経験豊富なプレイヤーでさえ、実際にレベルのワンダーフラワーを手に入れる前に、レベルで1、2回余分に挑戦する必要があるかもしれません。",
+        segments: [
+          { text: "They’re rarely too difficult to spot", translation: "見つけるのはめったに難しくありません" },
+          { text: ", " },
+          { text: "but even experienced players might need to take an extra crack or two at a level", translation: "しかし、経験豊富なプレイヤーでさえ、レベルで1、2回余分に挑戦する必要があるかもしれません" },
+          { text: " " },
+          { text: "before actually getting their hands on any level’s Wonder Flower", translation: "実際にレベルのワンダーフラワーを手に入れる前に" },
+          { text: "." },
+        ]
+      },
+      {
+        english: "Once you do get your hands on the power-up, though, you’ll be faced with some sort of challenge, puzzle or other … change.",
+        japanese: "ただし、パワーアップを手に入れると、何らかの挑戦、パズル、またはその他の…変化に直面します。",
+        segments: [
+          { text: "Once you do get your hands on the power-up", translation: "パワーアップを手に入れると" },
+          { text: ", " },
+          { text: "though", translation: "ただし" },
+          { text: ", " },
+          { text: "you’ll be faced with", translation: "直面します" },
+          { text: " " },
+          { text: "some sort of challenge, puzzle or other … change", translation: "何らかの挑戦、パズル、またはその他の…変化に" },
+          { text: "." },
+        ]
+      },
+      {
+        english: "It’s difficult to get into detail about many of Wonder’s best moments without ruining the surprise, but you’ll be transformed into any number of different shapes and sizes — you might be as big as a gigantic spiky ball, demolishing everything in your path, but you might also find yourself transformed into a Goomba, one of Mario’s oldest and most iconic enemies.",
+        japanese: "驚きを台無しにすることなくワンダーの最高の瞬間の多くについて詳しく説明するのは難しいですが、あなたはさまざまな形やサイズに変身します—巨大なとげのあるボールのように大きくなって、進路上のすべてを破壊するかもしれませんが、マリオの最も古く、最も象徴的な敵の1人であるグンバに変身することもあります。",
+        segments: [
+          { text: "It’s difficult to get into detail", translation: "詳しく説明するのは難しいです" },
+          { text: " " },
+          { text: "about many of Wonder’s best moments", translation: "ワンダーの最高の瞬間の多くについて" },
+          { text: " " },
+          { text: "without ruining the surprise", translation: "驚きを台無しにすることなく" },
+          { text: ", " },
+          { text: "but you’ll be transformed into any number of different shapes and sizes", translation: "しかし、あなたはさまざまな形やサイズに変身します" },
+          { text: " — " },
+          { text: "you might be as big as a gigantic spiky ball", translation: "巨大なとげのあるボールのように大きくなるかもしれません" },
+          { text: ", " },
+          { text: "demolishing everything in your path", translation: "進路上のすべてを破壊する" },
+          { text: ", " },
+          { text: "but you might also find yourself transformed into a Goomba", translation: "しかし、グンバに変身することもあります" },
+          { text: ", " },
+          { text: "one of Mario’s oldest and most iconic enemies", translation: "マリオの最も古く、最も象徴的な敵の1人" },
+          { text: "." },
+        ]
+      },
+      {
+        english: "Elements of the courses might come to life in unexpected ways like a pipe suddenly moving along the level like an inchworm.",
+        japanese: "コースの要素は、パイプが突然シャクトリムシのようにレベルに沿って動くなど、予期しない方法で活気づくことがあります。",
+        segments: [
+          { text: "Elements of the courses", translation: "コースの要素は" },
+          { text: " " },
+          { text: "might come to life", translation: "活気づくことがあります" },
+          { text: " " },
+          { text: "in unexpected ways", translation: "予期しない方法で" },
+          { text: " " },
+          { text: "like a pipe suddenly moving along the level like an inchworm", translation: "パイプが突然シャクトリムシのようにレベルに沿って動くなど" },
+          { text: "." },
+        ]
+      },
+      {
+        english: "Eventually, the changes will reach a logical conclusion, and you’ll pick up a Wonder Seed, Mario Wonder’s in-game collectible that’s used to unlock challenge levels and the castles found at the end of each world.",
+        japanese: "最終的に、変更は論理的な結論に達し、チャレンジレベルと各世界の終わりに​​ある城のロックを解除するために使用されるマリオワンダーのゲーム内収集品であるワンダーシードを手に入れます。",
+        segments: [
+          { text: "Eventually", translation: "最終的に" },
+          { text: ", " },
+          { text: "the changes will reach a logical conclusion", translation: "変更は論理的な結論に達します" },
+          { text: ", " },
+          { text: "and you’ll pick up a Wonder Seed", translation: "そしてワンダーシードを手に入れます" },
+          { text: ", " },
+          { text: "Mario Wonder’s in-game collectible", translation: "マリオワンダーのゲーム内収集品" },
+          { text: " " },
+          { text: "that’s used to unlock challenge levels and the castles", translation: "チャレンジレベルと城のロックを解除するために使用される" },
+          { text: " " },
+          { text: "found at the end of each world", translation: "各世界の終わりに​​ある" },
+          { text: "." },
+        ]
+      },
+      {
+        english: "Time and time again, the Wonder Flower effects find new ways to delight and dazzle.",
+        japanese: "何度も何度も、ワンダーフラワーの効果は、楽しませ、眩惑させる新しい方法を見つけます。",
+        segments: [
+          { text: "Time and time again", translation: "何度も何度も" },
+          { text: ", " },
+          { text: "the Wonder Flower effects find new ways", translation: "ワンダーフラワーの効果は新しい方法を見つけます" },
+          { text: " " },
+          { text: "to delight and dazzle", translation: "楽しませ、眩惑させる" },
+          { text: "." },
+        ]
+      },
+      {
+        english: "Even flowers that repeat mechanics or ideas do so with a tactful, creative sense of progress that builds on what the previous iteration of that power or mechanic did.",
+        japanese: "メカニズムやアイデアを繰り返す花でさえ、その力やメカニズムの前の反復がしたことに基づいて構築される、巧妙で創造的な進歩の感覚でそうします。",
+        segments: [
+          { text: "Even flowers that repeat mechanics or ideas", translation: "メカニズムやアイデアを繰り返す花でさえ" },
+          { text: " " },
+          { text: "do so with a tactful, creative sense of progress", translation: "巧妙で創造的な進歩の感覚でそうします" },
+          { text: " " },
+          { text: "that builds on what the previous iteration of that power or mechanic did", translation: "その力やメカニズムの前の反復がしたことに基づいて構築される" },
+          { text: "." },
+        ]
+      },
+      {
+        english: "There were a few Wonder Flowers that introduced mechanics or powers that made things a bit challenging or confusing to control at times, but even these brief lapses in locomotive prowess provided such a consistent sense of comical, whimsical silliness to the affair that it’s hard to stay sour on them.",
+        japanese: "物事を少し挑戦的にしたり、時には制御を混乱させたりするメカニズムやパワーを導入したワンダーフラワーがいくつかありましたが、運動能力のこれらの短い経過でさえ、コメディーで気まぐれな愚かさの一貫した感覚を事態に提供したので、それらに不満を抱くのは難しいです。",
+        segments: [
+          { text: "There were a few Wonder Flowers that introduced mechanics or powers", translation: "メカニズムやパワーを導入したワンダーフラワーがいくつかありました" },
+          { text: " " },
+          { text: "that made things a bit challenging or confusing to control at times", translation: "物事を少し挑戦的にしたり、時には制御を混乱させたりする" },
+          { text: ", " },
+          { text: "but even these brief lapses in locomotive prowess", translation: "しかし、運動能力のこれらの短い経過でさえ" },
+          { text: " " },
+          { text: "provided such a consistent sense of comical, whimsical silliness to the affair", translation: "コメディーで気まぐれな愚かさの一貫した感覚を事態に提供しました" },
+          { text: " " },
+          { text: "that it’s hard to stay sour on them", translation: "それらに不満を抱くのは難しい" },
+          { text: "." },
+        ]
+      },
+      {
+        english: "Badges are Wonder’s other completely new, game-changing add.",
+        japanese: "バッジはワンダーの他の完全に新しい、ゲームを変える追加機能です。",
+        segments: [
+          { text: "Badges are Wonder’s other completely new, game-changing add", translation: "バッジはワンダーの他の完全に新しい、ゲームを変える追加機能です" },
+          { text: "." },
+        ]
+      },
+      {
+        english: "While you can equip only one at a time, many of them open up new possibilities for exploration and platforming.",
+        japanese: "一度に1つしか装備できませんが、その多くは探索とプラットフォームの新しい可能性を開きます。",
+        segments: [
+          { text: "While you can equip only one at a time", translation: "一度に1つしか装備できませんが" },
+          { text: ", " },
+          { text: "many of them open up new possibilities", translation: "その多くは新しい可能性を開きます" },
+          { text: " " },
+          { text: "for exploration and platforming", translation: "探索とプラットフォームのために" },
+          { text: "." },
+        ]
+      },
+      {
+        english: "One of our favorites was the Parachute Cap Badge, which allows you to use a giant Mario cap as a parachute to slow down your character’s fall speed.",
+        japanese: "私たちのお気に入りの1つはパラシュートキャップバッジで、巨大なマリオキャップをパラシュートとして使用してキャラクターの落下速度を遅くすることができます。",
+        segments: [
+          { text: "One of our favorites was the Parachute Cap Badge", translation: "私たちのお気に入りの1つはパラシュートキャップバッジでした" },
+          { text: ", " },
+          { text: "which allows you to use a giant Mario cap as a parachute", translation: "巨大なマリオキャップをパラシュートとして使用できます" },
+          { text: " " },
+          { text: "to slow down your character’s fall speed", translation: "キャラクターの落下速度を遅くするために" },
+          { text: "." },
+        ]
+      },
+      {
+        english: "In a game without an equivalent to the Tanooki Suit from Mario 3, it’s a welcome addition that feels perfectly natural in Mario that leaves room for power-ups to explore other, more off-the-wall abilities and functions.",
+        japanese: "マリオ3のタヌキスーツに相当するものがないゲームでは、マリオで完全に自然に感じられる歓迎すべき追加機能であり、パワーアップが他の、より奇抜な能力や機能を探求する余地を残しています。",
+        segments: [
+          { text: "In a game without an equivalent to the Tanooki Suit from Mario 3", translation: "マリオ3のタヌキスーツに相当するものがないゲームでは" },
+          { text: ", " },
+          { text: "it’s a welcome addition", translation: "歓迎すべき追加機能です" },
+          { text: " " },
+          { text: "that feels perfectly natural in Mario", translation: "マリオで完全に自然に感じられる" },
+          { text: " " },
+          { text: "that leaves room for power-ups to explore other, more off-the-wall abilities and functions", translation: "パワーアップが他の、より奇抜な能力や機能を探求する余地を残しています" },
+          { text: "." },
+        ]
+      },
+      {
+        english: "Any Badge that requires input from the player fits comfortably within Wonder’s control scheme, though you’ll lose the ability to execute Mario’s midair spin ability should you choose an ability like the Parachute Cap.",
+        japanese: "プレイヤーからの入力を必要とするバッジは、ワンダーの制御スキームに快適に収まりますが、パラシュートキャップのような能力を選択すると、マリオの空中スピン能力を実行する能力を失います。",
+        segments: [
+          { text: "Any Badge that requires input from the player", translation: "プレイヤーからの入力を必要とするバッジは" },
+          { text: " " },
+          { text: "fits comfortably within Wonder’s control scheme", translation: "ワンダーの制御スキームに快適に収まります" },
+          { text: ", " },
+          { text: "though you’ll lose the ability to execute Mario’s midair spin ability", translation: "ただし、マリオの空中スピン能力を実行する能力を失います" },
+          { text: " " },
+          { text: "should you choose an ability like the Parachute Cap", translation: "パラシュートキャップのような能力を選択した場合" },
+          { text: "." },
+        ]
+      },
+      {
+        english: "Previous Mario games centered some or many of their power-ups around mobility and exploration; these Badges remove some of those limits.",
+        japanese: "以前のマリオゲームは、パワーアップの一部または多くを機動性と探索に集中させていました。これらのバッジは、それらの制限の一部を削除します。",
+        segments: [
+          { text: "Previous Mario games centered some or many of their power-ups", translation: "以前のマリオゲームは、パワーアップの一部または多くを集中させていました" },
+          { text: " " },
+          { text: "around mobility and exploration", translation: "機動性と探索に" },
+          { text: "; " },
+          { text: "these Badges remove some of those limits", translation: "これらのバッジは、それらの制限の一部を削除します" },
+          { text: "." },
+        ]
+      },
+      {
+        english: "Mario can use the powers granted by the Badges at any time without collecting some special mushroom or flower, making exploring and besting Wonder’s levels more feasible.",
+        japanese: "マリオは、特別なキノコや花を集めることなく、いつでもバッジによって付与された力を使用できるため、ワンダーのレベルを探索して打ち負かすことがより実現可能になります。",
+        segments: [
+          { text: "Mario can use the powers granted by the Badges at any time", translation: "マリオはいつでもバッジによって付与された力を使用できます" },
+          { text: " " },
+          { text: "without collecting some special mushroom or flower", translation: "特別なキノコや花を集めることなく" },
+          { text: ", " },
+          { text: "making exploring and besting Wonder’s levels more feasible", translation: "ワンダーのレベルを探索して打ち負かすことがより実現可能になります" },
+          { text: "." },
+        ]
+      },
+      {
+        english: "It doesn’t matter what size or power-up your character’s wearing either, making it much easier to scour each level for secrets and surprises.",
+        japanese: "キャラクターが着用しているサイズやパワーアップも関係ありません。これにより、各レベルで秘密や驚きを探し回るのがはるかに簡単になります。",
+        segments: [
+          { text: "It doesn’t matter what size or power-up your character’s wearing either", translation: "キャラクターが着用しているサイズやパワーアップも関係ありません" },
+          { text: ", " },
+          { text: "making it much easier to scour each level for secrets and surprises", translation: "これにより、各レベルで秘密や驚きを探し回るのがはるかに簡単になります" },
+          { text: "." },
+        ]
+      },
+      {
+        english: "A lot of the Badges available in Wonder follow that same design ethos; the Grappling Vine, for example, lets you grab onto nearby walls (or flagpoles) and zip forward to them before perching in place on said object.",
+        japanese: "ワンダーで利用できるバッジの多くは、同じデザイン精神に従っています。たとえば、グラップリングバインを使用すると、近くの壁（または旗竿）につかまり、それらに向かって前方にジップしてから、そのオブジェクトの所定の位置に止まることができます。",
+        segments: [
+          { text: "A lot of the Badges available in Wonder follow that same design ethos", translation: "ワンダーで利用できるバッジの多くは、同じデザイン精神に従っています" },
+          { text: "; " },
+          { text: "the Grappling Vine, for example", translation: "たとえば、グラップリングバイン" },
+          { text: ", " },
+          { text: "lets you grab onto nearby walls (or flagpoles)", translation: "近くの壁（または旗竿）につかまることができます" },
+          { text: " " },
+          { text: "and zip forward to them", translation: "そしてそれらに向かって前方にジップします" },
+          { text: " " },
+          { text: "before perching in place on said object", translation: "そのオブジェクトの所定の位置に止まる前に" },
+          { text: "." },
+        ]
+      },
+      {
+        english: "It’s a fun tool that changes how you’re able to explore a level without making it too easy.",
+        japanese: "簡単すぎずにレベルを探索できる方法を変える楽しいツールです。",
+        segments: [
+          { text: "It’s a fun tool", translation: "楽しいツールです" },
+          { text: " " },
+          { text: "that changes how you’re able to explore a level", translation: "レベルを探索できる方法を変える" },
+          { text: " " },
+          { text: "without making it too easy", translation: "簡単すぎずに" },
+          { text: "." },
+        ]
+      },
+      {
+        english: "Still, some non-movement-related Badges help in different ways.",
+        japanese: "それでも、動きに関係のないバッジの中には、さまざまな方法で役立つものもあります。",
+        segments: [
+          { text: "Still", translation: "それでも" },
+          { text: ", " },
+          { text: "some non-movement-related Badges", translation: "動きに関係のないバッジの中には" },
+          { text: " " },
+          { text: "help in different ways", translation: "さまざまな方法で役立つものもあります" },
+          { text: "." },
+        ]
+      },
+      {
+        english: "The Coin Magnet Badge, for example, helps you pick up nearby coins without going out of your way.",
+        japanese: "たとえば、コインマグネットバッジは、わざわざ出向かなくても近くのコインを拾うのに役立ちます。",
+        segments: [
+          { text: "The Coin Magnet Badge, for example", translation: "たとえば、コインマグネットバッジは" },
+          { text: ", " },
+          { text: "helps you pick up nearby coins", translation: "近くのコインを拾うのに役立ちます" },
+          { text: " " },
+          { text: "without going out of your way", translation: "わざわざ出向かなくても" },
+          { text: "." },
+        ]
+      },
+      {
+        english: "The Super Mushroom Badge lets you start each level with the Super Mushroom power-up instead of your character’s more vulnerable state, allowing you to pick up better power-ups and avoid losing a life after one hit from an enemy or obstacle.",
+        japanese: "スーパーキノコバッジを使用すると、キャラクターのより脆弱な状態の代わりにスーパーキノコのパワーアップで各レベルを開始できるため、より良いパワーアップを拾い、敵や障害物からの一撃でライフを失うのを回避できます。",
+        segments: [
+          { text: "The Super Mushroom Badge lets you start each level with the Super Mushroom power-up", translation: "スーパーキノコバッジを使用すると、スーパーキノコのパワーアップで各レベルを開始できます" },
+          { text: " " },
+          { text: "instead of your character’s more vulnerable state", translation: "キャラクターのより脆弱な状態の代わりに" },
+          { text: ", " },
+          { text: "allowing you to pick up better power-ups", translation: "より良いパワーアップを拾うことができます" },
+          { text: " " },
+          { text: "and avoid losing a life after one hit from an enemy or obstacle", translation: "そして敵や障害物からの一撃でライフを失うのを回避できます" },
+          { text: "." },
+        ]
+      },
+      {
+        english: "Even the act of unlocking new Badges is rewarding.",
+        japanese: "新しいバッジのロックを解除する行為でさえやりがいがあります。",
+        segments: [
+          { text: "Even the act of unlocking new Badges", translation: "新しいバッジのロックを解除する行為でさえ" },
+          { text: " " },
+          { text: "is rewarding", translation: "やりがいがあります" },
+          { text: "." },
+        ]
+      },
+      {
+        english: "Some, like the Coin Magnet Badge, are simply unlocked through progressing through the game.",
+        japanese: "コインマグネットバッジのように、ゲームを進めるだけでロックが解除されるものもあります。",
+        segments: [
+          { text: "Some, like the Coin Magnet Badge", translation: "コインマグネットバッジのように、いくつか" },
+          { text: ", " },
+          { text: "are simply unlocked", translation: "単にロックが解除されます" },
+          { text: " " },
+          { text: "through progressing through the game", translation: "ゲームを進めることで" },
+          { text: "." },
+        ]
+      },
+      {
+        english: "Movement-based abilities, on the other hand, require you to complete a course that teaches you how to use said power.",
+        japanese: "一方、動きに基づいた能力は、その力の使い方を教えるコースを完了する必要があります。",
+        segments: [
+          { text: "Movement-based abilities", translation: "動きに基づいた能力は" },
+          { text: ", " },
+          { text: "on the other hand", translation: "一方" },
+          { text: ", " },
+          { text: "require you to complete a course", translation: "コースを完了する必要があります" },
+          { text: " " },
+          { text: "that teaches you how to use said power", translation: "その力の使い方を教える" },
+          { text: "." },
+        ]
+      },
+      {
+        english: "They’re welcome challenges that focus more on platforming challenges than exploration and progression, and provide a welcome break from the standard pace and structure found in most levels in Wonder.",
+        japanese: "それらは、探索や進行よりもプラットフォームの課題に重点を置いた歓迎すべき課題であり、ワンダーのほとんどのレベルに見られる標準的なペースと構造からの歓迎すべき休憩を提供します。",
+        segments: [
+          { text: "They’re welcome challenges", translation: "それらは歓迎すべき課題です" },
+          { text: " " },
+          { text: "that focus more on platforming challenges than exploration and progression", translation: "探索や進行よりもプラットフォームの課題に重点を置いた" },
+          { text: ", " },
+          { text: "and provide a welcome break", translation: "そして歓迎すべき休憩を提供します" },
+          { text: " " },
+          { text: "from the standard pace and structure found in most levels in Wonder", translation: "ワンダーのほとんどのレベルに見られる標準的なペースと構造から" },
+          { text: "." },
+        ]
+      },
+      {
+        english: "Mario Wonder’s reveal trailer took the internet by storm, thanks in no small part to its stinger: the reveal of Elephant Mario.",
+        japanese: "マリオワンダーの公開予告編は、そのスティンガーであるゾウマリオの公開に少なからず助けられて、インターネットを席巻しました。",
+        segments: [
+          { text: "Mario Wonder’s reveal trailer took the internet by storm", translation: "マリオワンダーの公開予告編はインターネットを席巻しました" },
+          { text: ", " },
+          { text: "thanks in no small part to its stinger", translation: "そのスティンガーに少なからず助けられて" },
+          { text: ": " },
+          { text: "the reveal of Elephant Mario", translation: "ゾウマリオの公開" },
+          { text: "." },
+        ]
+      },
+      {
+        english: "With an exuberant “wowie-zowie!” the Italian plumber had transformed into a pachyderm with overalls and a mustache.",
+        japanese: "陽気な「ワウイゾーイ！」で、イタリアの配管工はオーバーオールと口ひげを生やした厚皮動物に変身しました。",
+        segments: [
+          { text: "With an exuberant “wowie-zowie!”", translation: "陽気な「ワウイゾーイ！」で" },
+          { text: " " },
+          { text: "the Italian plumber had transformed into a pachyderm", translation: "イタリアの配管工は厚皮動物に変身しました" },
+          { text: " " },
+          { text: "with overalls and a mustache", translation: "オーバーオールと口ひげを生やした" },
+          { text: "." },
+        ]
+      },
+      {
+        english: "It’s a silly sight to behold, but the new ability’s worth more than shock value; the elephant ability adds cool new ways to interact with the environments that go beyond traversal.",
+        japanese: "見るのはばかげた光景ですが、新しい能力は衝撃的な価値以上の価値があります。象の能力は、移動を超えて環境と対話するためのクールな新しい方法を追加します。",
+        segments: [
+          { text: "It’s a silly sight to behold", translation: "見るのはばかげた光景です" },
+          { text: ", " },
+          { text: "but the new ability’s worth more than shock value", translation: "しかし、新しい能力は衝撃的な価値以上の価値があります" },
+          { text: "; " },
+          { text: "the elephant ability adds cool new ways to interact with the environments", translation: "象の能力は環境と対話するためのクールな新しい方法を追加します" },
+          { text: " " },
+          { text: "that go beyond traversal", translation: "移動を超えて" },
+          { text: "." },
+        ]
+      },
+      {
+        english: "For example, you can carry water in your character’s trunk and spray it over dried-up seeds to earn special rewards like coins or power-ups.",
+        japanese: "たとえば、キャラクターの鼻に水を入れて、乾いた種にスプレーして、コインやパワーアップなどの特別な報酬を獲得できます。",
+        segments: [
+          { text: "For example", translation: "たとえば" },
+          { text: ", " },
+          { text: "you can carry water in your character’s trunk", translation: "キャラクターの鼻に水を入れることができます" },
+          { text: " " },
+          { text: "and spray it over dried-up seeds", translation: "そして乾いた種にスプレーします" },
+          { text: " " },
+          { text: "to earn special rewards like coins or power-ups", translation: "コインやパワーアップなどの特別な報酬を獲得するために" },
+          { text: "." },
+        ]
+      },
+      {
+        english: "The drill power-up is a bit more conventional in that it focuses on traversal and exploration, but it’s nothing like what we’ve seen from Marios past: It allows you to burrow underground and get underneath otherwise unbreakable obstacles or objects.",
+        japanese: "ドリルのパワーアップは、移動と探索に焦点を当てているという点で少し従来型ですが、過去のマリオから見たものとはまったく異なります。地下に潜り、他の方法では壊れない障害物やオブジェクトの下に入ることができます。",
+        segments: [
+          { text: "The drill power-up is a bit more conventional", translation: "ドリルのパワーアップは少し従来型です" },
+          { text: " " },
+          { text: "in that it focuses on traversal and exploration", translation: "移動と探索に焦点を当てているという点で" },
+          { text: ", " },
+          { text: "but it’s nothing like what we’ve seen from Marios past", translation: "しかし、過去のマリオから見たものとはまったく異なります" },
+          { text: ": " },
+          { text: "It allows you to burrow underground", translation: "地下に潜ることができます" },
+          { text: " " },
+          { text: "and get underneath otherwise unbreakable obstacles or objects", translation: "そして他の方法では壊れない障害物やオブジェクトの下に入ることができます" },
+          { text: "." },
+        ]
+      },
+      {
+        english: "It also just feels great to zoom around underground Bugs Bunny-style.",
+        japanese: "また、バグズバニースタイルで地下をズームするのも素晴らしい気分です。",
+        segments: [
+          { text: "It also just feels great", translation: "また、素晴らしい気分です" },
+          { text: " " },
+          { text: "to zoom around underground Bugs Bunny-style", translation: "バグズバニースタイルで地下をズームする" },
+          { text: "." },
+        ]
+      },
+      {
+        english: "This is easily Wonder’s least explored power-up, though it still gets ample time to shine.",
+        japanese: "これはワンダーで最も探索されていないパワーアップですが、それでも輝く時間は十分にあります。",
+        segments: [
+          { text: "This is easily Wonder’s least explored power-up", translation: "これはワンダーで最も探索されていないパワーアップです" },
+          { text: ", " },
+          { text: "though it still gets ample time to shine", translation: "それでも輝く時間は十分にあります" },
+          { text: "." },
+        ]
+      },
+      {
+        english: "Last but certainly not least is the Bubble Flower, which lets you shoot bubbles.",
+        japanese: "最後になりましたが、確かに重要なのは、泡を撃つことができるバブルフラワーです。",
+        segments: [
+          { text: "Last but certainly not least is the Bubble Flower", translation: "最後になりましたが、確かに重要なのはバブルフラワーです" },
+          { text: ", " },
+          { text: "which lets you shoot bubbles", translation: "泡を撃つことができる" },
+          { text: "." },
+        ]
+      },
+      {
+        english: "They trap enemies before transforming them into a coin.",
+        japanese: "彼らは敵をコインに変える前に閉じ込めます。",
+        segments: [
+          { text: "They trap enemies", translation: "彼らは敵を閉じ込めます" },
+          { text: " " },
+          { text: "before transforming them into a coin", translation: "コインに変える前に" },
+          { text: "." },
+        ]
+      },
+      {
+        english: "More importantly, however, you can also jump on top of the same bubbles to get a little height boost.",
+        japanese: "さらに重要なことに、同じ泡の上にジャンプして少し高さを上げることもできます。",
+        segments: [
+          { text: "More importantly, however", translation: "さらに重要なことに" },
+          { text: ", " },
+          { text: "you can also jump on top of the same bubbles", translation: "同じ泡の上にジャンプすることもできます" },
+          { text: " " },
+          { text: "to get a little height boost", translation: "少し高さを上げるために" },
+          { text: "." },
+        ]
+      },
+      {
+        english: "It’s a super-helpful ability that can help you reach spots that badges might not get you to.",
+        japanese: "バッジでは到達できない場所に到達するのに役立つ非常に役立つ能力です。",
+        segments: [
+          { text: "It’s a super-helpful ability", translation: "非常に役立つ能力です" },
+          { text: " " },
+          { text: "that can help you reach spots", translation: "場所に到達するのに役立つ" },
+          { text: " " },
+          { text: "that badges might not get you to", translation: "バッジでは到達できない" },
+          { text: "." },
+        ]
+      },
+      {
+        english: "Mario games have always been endearing.",
+        japanese: "マリオゲームは常に愛されてきました。",
+        segments: [
+          { text: "Mario games have always been endearing", translation: "マリオゲームは常に愛されてきました" },
+          { text: "." },
+        ]
+      },
+      {
+        english: "Between cutesy, cartoony character design and charming music, charisma has always been a part of the series’ success from the first game’s iconic, catchy tune to Wonder’s talking flowers.",
+        japanese: "かわいい、漫画的なキャラクターデザインと魅力的な音楽の間で、カリスマは常に、最初のゲームの象徴的でキャッチーな曲からワンダーの話す花まで、シリーズの成功の一部でした。",
+        segments: [
+          { text: "Between cutesy, cartoony character design and charming music", translation: "かわいい、漫画的なキャラクターデザインと魅力的な音楽の間で" },
+          { text: ", " },
+          { text: "charisma has always been a part of the series’ success", translation: "カリスマは常にシリーズの成功の一部でした" },
+          { text: " " },
+          { text: "from the first game’s iconic, catchy tune", translation: "最初のゲームの象徴的でキャッチーな曲から" },
+          { text: " " },
+          { text: "to Wonder’s talking flowers", translation: "ワンダーの話す花まで" },
+          { text: "." },
+        ]
+      },
+      {
+        english: "Not only is Wonder’s cast of characters as adorable as ever, with lively animations and joyful voice work, but it’s also backed by some spectacular sound design.",
+        japanese: "ワンダーのキャラクターのキャストは、活気のあるアニメーションと楽しい声の仕事で、相変わらず愛らしいだけでなく、いくつかの壮大なサウンドデザインによって支えられています。",
+        segments: [
+          { text: "Not only is Wonder’s cast of characters as adorable as ever", translation: "ワンダーのキャラクターのキャストは相変わらず愛らしいだけでなく" },
+          { text: ", " },
+          { text: "with lively animations and joyful voice work", translation: "活気のあるアニメーションと楽しい声の仕事で" },
+          { text: ", " },
+          { text: "but it’s also backed by some spectacular sound design", translation: "しかし、いくつかの壮大なサウンドデザインによって支えられています" },
+          { text: "." },
+        ]
+      },
+      {
+        english: "Hardcore fans will notice several breaks from tradition here, as almost none of the sound effects for things like stomping on an enemy or even jumping sound the same as previous entries.",
+        japanese: "熱心なファンは、敵を踏みつけたり、ジャンプしたりするなどの効果音のほとんどが以前のエントリと同じように聞こえないため、ここでの伝統からのいくつかの断絶に気付くでしょう。",
+        segments: [
+          { text: "Hardcore fans will notice several breaks from tradition here", translation: "熱心なファンはここでの伝統からのいくつかの断絶に気付くでしょう" },
+          { text: ", " },
+          { text: "as almost none of the sound effects for things like stomping on an enemy or even jumping", translation: "敵を踏みつけたり、ジャンプしたりするなどの効果音のほとんどが" },
+          { text: " " },
+          { text: "sound the same as previous entries", translation: "以前のエントリと同じように聞こえないため" },
+          { text: "." },
+        ]
+      },
+      {
+        english: "Stuff like entering a warp pipe or hitting a block to reveal an item has sounded the same for decades.",
+        japanese: "ワープパイプに入ったり、ブロックを叩いてアイテムを明らかにしたりするようなものは、何十年も同じように聞こえました。",
+        segments: [
+          { text: "Stuff like entering a warp pipe or hitting a block to reveal an item", translation: "ワープパイプに入ったり、ブロックを叩いてアイテムを明らかにしたりするようなものは" },
+          { text: " " },
+          { text: "has sounded the same for decades", translation: "何十年も同じように聞こえました" },
+          { text: "." },
+        ]
+      },
+      {
+        english: "Art styles may have changed, but sound design never had.",
+        japanese: "アートスタイルは変わったかもしれませんが、サウンドデザインは決して変わりませんでした。",
+        segments: [
+          { text: "Art styles may have changed", translation: "アートスタイルは変わったかもしれません" },
+          { text: ", " },
+          { text: "but sound design never had", translation: "しかし、サウンドデザインは決して変わりませんでした" },
+          { text: "." },
+        ]
+      },
+      {
+        english: "And with good reason — a lot of it holds up today.",
+        japanese: "そして正当な理由があります—その多くは今日でも持ちこたえています。",
+        segments: [
+          { text: "And with good reason", translation: "そして正当な理由があります" },
+          { text: " — " },
+          { text: "a lot of it holds up today", translation: "その多くは今日でも持ちこたえています" },
+          { text: "." },
+        ]
+      },
+      {
+        english: "But making a ground pound sound like a drumroll heightens Wonder’s best aspects.",
+        japanese: "しかし、地面を叩く音をドラムロールのように鳴らすと、ワンダーの最高の側面が高まります。",
+        segments: [
+          { text: "But making a ground pound sound like a drumroll", translation: "しかし、地面を叩く音をドラムロールのように鳴らすと" },
+          { text: " " },
+          { text: "heightens Wonder’s best aspects", translation: "ワンダーの最高の側面が高まります" },
+          { text: "." },
+        ]
+      },
+      {
+        english: "But its charm goes further than granular details; talking flowers permeate Wonder’s smattering of levels, and add extra doses of personality and the occasional hint to a soundscape that would otherwise be dominated by a “wahoo” or an “oh yeah.”",
+        japanese: "しかし、その魅力は詳細な詳細を超えています。話す花はワンダーのレベルの散在に浸透し、そうでなければ「ワフー」または「オーイェー」によって支配されるであろうサウンドスケープに個性の余分な線量と時折のヒントを追加します。",
+        segments: [
+          { text: "But its charm goes further than granular details", translation: "しかし、その魅力は詳細な詳細を超えています" },
+          { text: "; " },
+          { text: "talking flowers permeate Wonder’s smattering of levels", translation: "話す花はワンダーのレベルの散在に浸透します" },
+          { text: ", " },
+          { text: "and add extra doses of personality and the occasional hint", translation: "そして個性の余分な線量と時折のヒントを追加します" },
+          { text: " " },
+          { text: "to a soundscape that would otherwise be dominated by a “wahoo” or an “oh yeah.”", translation: "そうでなければ「ワフー」または「オーイェー」によって支配されるであろうサウンドスケープに" },
+        ]
+      },
+      {
+        english: "These flowers all offer commentary based on their surroundings and sometimes even react to what the player does.",
+        japanese: "これらの花はすべて、周囲に基づいて解説を提供し、時にはプレイヤーの行動にさえ反応します。",
+        segments: [
+          { text: "These flowers all offer commentary", translation: "これらの花はすべて解説を提供します" },
+          { text: " " },
+          { text: "based on their surroundings", translation: "周囲に基づいて" },
+          { text: " " },
+          { text: "and sometimes even react to what the player does", translation: "そして時にはプレイヤーの行動にさえ反応します" },
+          { text: "." },
+        ]
+      },
+      {
+        english: "They’re just the right blend of weird, goofy and cute, and represent Wonder’s off-the-wall, bizarro charm.",
+        japanese: "それらは奇妙で、間抜けで、かわいいのちょうどいいブレンドであり、ワンダーの奇抜で、奇妙な魅力を表しています。",
+        segments: [
+          { text: "They’re just the right blend of weird, goofy and cute", translation: "それらは奇妙で、間抜けで、かわいいのちょうどいいブレンドです" },
+          { text: ", " },
+          { text: "and represent Wonder’s off-the-wall, bizarro charm", translation: "そしてワンダーの奇抜で、奇妙な魅力を表しています" },
+          { text: "." },
+        ]
+      },
+      {
+        english: "Super Mario Bros. Wonder’s levels are excellent.",
+        japanese: "スーパーマリオブラザーズワンダーのレベルは素晴らしいです。",
+        segments: [
+          { text: "Super Mario Bros. Wonder’s levels are excellent", translation: "スーパーマリオブラザーズワンダーのレベルは素晴らしいです" },
+          { text: "." },
+        ]
+      },
+      {
+        english: "While some are certainly stronger than others, even the less-than-desirable issues found in great Mario games come few and far between.",
+        japanese: "確かに他のものより強いものもありますが、素晴らしいマリオゲームに見られるあまり望ましくない問題でさえ、めったにありません。",
+        segments: [
+          { text: "While some are certainly stronger than others", translation: "確かに他のものより強いものもありますが" },
+          { text: ", " },
+          { text: "even the less-than-desirable issues found in great Mario games", translation: "素晴らしいマリオゲームに見られるあまり望ましくない問題でさえ" },
+          { text: " " },
+          { text: "come few and far between", translation: "めったにありません" },
+          { text: "." },
+        ]
+      },
+      {
+        english: "The Dolphin Kick badge makes water-focused levels much more fun and less of a pain to navigate.",
+        japanese: "イルカキックバッジは、水に焦点を当てたレベルをはるかに楽しくし、ナビゲートする手間を省きます。",
+        segments: [
+          { text: "The Dolphin Kick badge makes water-focused levels much more fun", translation: "イルカキックバッジは、水に焦点を当てたレベルをはるかに楽しくします" },
+          { text: " " },
+          { text: "and less of a pain to navigate", translation: "そしてナビゲートする手間を省きます" },
+          { text: "." },
+        ]
+      },
+      {
+        english: "Some levels (which we can’t discuss due to Nintendo’s coverage guidelines for the game) feature new enemies or mechanics only to use them one or two more times before ditching them completely.",
+        japanese: "一部のレベル（任天堂のゲームのカバレッジガイドラインのために議論することはできません）は、新しい敵やメカニズムを備えていますが、それらを完全に捨てる前に1、2回しか使用しません。",
+        segments: [
+          { text: "Some levels", translation: "一部のレベル" },
+          { text: " " },
+          { text: "(which we can’t discuss due to Nintendo’s coverage guidelines for the game)", translation: "（任天堂のゲームのカバレッジガイドラインのために議論することはできません）" },
+          { text: " " },
+          { text: "feature new enemies or mechanics", translation: "新しい敵やメカニズムを備えています" },
+          { text: " " },
+          { text: "only to use them one or two more times", translation: "それらを1、2回しか使用しません" },
+          { text: " " },
+          { text: "before ditching them completely", translation: "完全に捨てる前に" },
+          { text: "." },
+        ]
+      },
+      {
+        english: "There’s a clear focus on allowing each level to be its own thing; where other games would focus on a successful mechanic, Wonder trims and distills every single good idea down to its best, sharpest possible instance.",
+        japanese: "各レベルが独自のものであることを可能にすることに明確な焦点があります。他のゲームが成功したメカニズムに焦点を当てるのに対し、ワンダーはすべての良いアイデアを最高で最も鋭い可能なインスタンスにトリミングして蒸留します。",
+        segments: [
+          { text: "There’s a clear focus on allowing each level to be its own thing", translation: "各レベルが独自のものであることを可能にすることに明確な焦点があります" },
+          { text: "; " },
+          { text: "where other games would focus on a successful mechanic", translation: "他のゲームが成功したメカニズムに焦点を当てるのに対し" },
+          { text: ", " },
+          { text: "Wonder trims and distills every single good idea", translation: "ワンダーはすべての良いアイデアをトリミングして蒸留します" },
+          { text: " " },
+          { text: "down to its best, sharpest possible instance", translation: "最高で最も鋭い可能なインスタンスに" },
+          { text: "." },
+        ]
+      },
+      {
+        english: "After running wild with a clever new idea, Wonder sets it down almost immediately before moving on to the next masterful morsel — never allowing any creative twist to stale or tarnish.",
+        japanese: "巧妙な新しいアイデアで暴走した後、ワンダーは次の見事な一口に移る前にほとんどすぐにそれを置きます—創造的なひねりを古くしたり汚したりすることを決して許しません。",
+        segments: [
+          { text: "After running wild with a clever new idea", translation: "巧妙な新しいアイデアで暴走した後" },
+          { text: ", " },
+          { text: "Wonder sets it down almost immediately", translation: "ワンダーはほとんどすぐにそれを置きます" },
+          { text: " " },
+          { text: "before moving on to the next masterful morsel", translation: "次の見事な一口に移る前に" },
+          { text: " — " },
+          { text: "never allowing any creative twist to stale or tarnish", translation: "創造的なひねりを古くしたり汚したりすることを決して許しません" },
+          { text: "." },
+        ]
+      },
+      {
+        english: "You’d think that Wonder might not be as exciting if a player misses a level’s hidden Wonder Flower, but because Wonder Flowers usually either take the player into a different section of a level or are designed around a level’s specific layout, they’re still great fun.",
+        japanese: "プレイヤーがレベルの隠されたワンダーフラワーを見逃した場合、ワンダーはそれほどエキサイティングではないと思うかもしれませんが、ワンダーフラワーは通常、プレイヤーをレベルの別のセクションに連れて行くか、レベルの特定のレイアウトを中心に設計されているため、それでも素晴らしい楽しみです。",
+        segments: [
+          { text: "You’d think that Wonder might not be as exciting", translation: "ワンダーはそれほどエキサイティングではないと思うかもしれません" },
+          { text: " " },
+          { text: "if a player misses a level’s hidden Wonder Flower", translation: "プレイヤーがレベルの隠されたワンダーフラワーを見逃した場合" },
+          { text: ", " },
+          { text: "but because Wonder Flowers usually either take the player into a different section of a level", translation: "しかし、ワンダーフラワーは通常、プレイヤーをレベルの別のセクションに連れて行くため" },
+          { text: " " },
+          { text: "or are designed around a level’s specific layout", translation: "またはレベルの特定のレイアウトを中心に設計されているため" },
+          { text: ", " },
+          { text: "they’re still great fun", translation: "それでも素晴らしい楽しみです" },
+          { text: "." },
+        ]
+      },
+      {
+        english: "Obviously, you’ll miss out on the flower’s wacky, trippy high jinks, but you’ll still get to experience a fully fleshed-out level.",
+        japanese: "明らかに、あなたは花の奇抜で、トリッピーなハイジンクスを見逃しますが、それでも完全に肉付けされたレベルを体験することができます。",
+        segments: [
+          { text: "Obviously", translation: "明らかに" },
+          { text: ", " },
+          { text: "you’ll miss out on the flower’s wacky, trippy high jinks", translation: "あなたは花の奇抜で、トリッピーなハイジンクスを見逃します" },
+          { text: ", " },
+          { text: "but you’ll still get to experience a fully fleshed-out level", translation: "しかし、それでも完全に肉付けされたレベルを体験することができます" },
+          { text: "." },
+        ]
+      },
+      {
+        english: "In the past, multiplayer in 2D Mario games fell into two categories: chaotic fun that toed the line between collaboration and sabotage, and taking turns to play.",
+        japanese: "過去、2Dマリオゲームのマルチプレイヤーは2つのカテゴリに分類されました。コラボレーションと妨害行為の境界線を越えた混沌とした楽しみと、順番にプレイすることです。",
+        segments: [
+          { text: "In the past", translation: "過去" },
+          { text: ", " },
+          { text: "multiplayer in 2D Mario games fell into two categories", translation: "2Dマリオゲームのマルチプレイヤーは2つのカテゴリに分類されました" },
+          { text: ": " },
+          { text: "chaotic fun that toed the line between collaboration and sabotage", translation: "コラボレーションと妨害行為の境界線を越えた混沌とした楽しみ" },
+          { text: ", " },
+          { text: "and taking turns to play", translation: "そして順番にプレイすること" },
+          { text: "." },
+        ]
+      },
+      {
+        english: "While taking turns has long since gone the way of the dodo, playing local multiplayer with a friend or three made progressing through New Super Mario Bros. Wii and U a complete toss-up.",
+        japanese: "順番にプレイすることはとうの昔に時代遅れになりましたが、友人や3人とローカルマルチプレイヤーをプレイすると、NewスーパーマリオブラザーズWiiとUを進めるのは完全な五分五分になりました。",
+        segments: [
+          { text: "While taking turns has long since gone the way of the dodo", translation: "順番にプレイすることはとうの昔に時代遅れになりましたが" },
+          { text: ", " },
+          { text: "playing local multiplayer with a friend or three", translation: "友人や3人とローカルマルチプレイヤーをプレイすると" },
+          { text: " " },
+          { text: "made progressing through New Super Mario Bros. Wii and U a complete toss-up", translation: "NewスーパーマリオブラザーズWiiとUを進めるのは完全な五分五分になりました" },
+          { text: "." },
+        ]
+      },
+      {
+        english: "Sometimes, it was really fun to jump through the Mushroom Kingdom with pals, while others it was a total pain to deal with running into each other, picking each other up and dealing with those games’ bubble mechanics.",
+        japanese: "時には、仲間とキノコ王国をジャンプするのは本当に楽しかったですが、他の時には、お互いにぶつかったり、お互いを拾ったり、それらのゲームのバブルメカニズムに対処したりするのはまったくの苦痛でした。",
+        segments: [
+          { text: "Sometimes", translation: "時には" },
+          { text: ", " },
+          { text: "it was really fun to jump through the Mushroom Kingdom with pals", translation: "仲間とキノコ王国をジャンプするのは本当に楽しかったですが" },
+          { text: ", " },
+          { text: "while others it was a total pain to deal with", translation: "他の時にはまったくの苦痛でした" },
+          { text: " " },
+          { text: "running into each other, picking each other up and dealing with those games’ bubble mechanics", translation: "お互いにぶつかったり、お互いを拾ったり、それらのゲームのバブルメカニズムに対処したりする" },
+          { text: "." },
+        ]
+      },
+      {
+        english: "Wonder marries the best of both worlds; players interact with the same levels but don’t risk running into each other or potentially killing each other on accident.",
+        japanese: "ワンダーは両方の長所を兼ね備えています。プレイヤーは同じレベルで対話しますが、誤って互いにぶつかったり、殺し合ったりするリスクはありません。",
+        segments: [
+          { text: "Wonder marries the best of both worlds", translation: "ワンダーは両方の長所を兼ね備えています" },
+          { text: "; " },
+          { text: "players interact with the same levels", translation: "プレイヤーは同じレベルで対話します" },
+          { text: " " },
+          { text: "but don’t risk running into each other", translation: "しかし、互いにぶつかるリスクはありません" },
+          { text: " " },
+          { text: "or potentially killing each other on accident", translation: "または誤って互いに殺し合う" },
+          { text: "." },
+        ]
+      },
+      {
+        english: "Instead, though they operate on the same planes, they rarely interact with each other, letting everyone platform to their heart’s content without accidentally bumping each other off a ledge.",
+        japanese: "代わりに、同じ平面上で動作しますが、めったに互いに相互作用せず、誰もが誤って互いを棚から突き落とすことなく、心ゆくまでプラットフォームを利用できます。",
+        segments: [
+          { text: "Instead", translation: "代わりに" },
+          { text: ", " },
+          { text: "though they operate on the same planes", translation: "同じ平面上で動作しますが" },
+          { text: ", " },
+          { text: "they rarely interact with each other", translation: "めったに互いに相互作用しません" },
+          { text: ", " },
+          { text: "letting everyone platform to their heart’s content", translation: "誰もが心ゆくまでプラットフォームを利用できます" },
+          { text: " " },
+          { text: "without accidentally bumping each other off a ledge", translation: "誤って互いを棚から突き落とすことなく" },
+          { text: "." },
+        ]
+      },
+      {
+        english: "It lets the game focus on tighter platforming level design and pacing.",
+        japanese: "これにより、ゲームはより厳しいプラットフォームのレベルデザインとペースに集中できます。",
+        segments: [
+          { text: "It lets the game focus on", translation: "これにより、ゲームは集中できます" },
+          { text: " " },
+          { text: "tighter platforming level design and pacing", translation: "より厳しいプラットフォームのレベルデザインとペースに" },
+          { text: "." },
+        ]
+      },
+      {
+        english: "If someone’s playing as one of the four Yoshis in the game, another player can ride on their back in case they need some help tackling a tough jump.",
+        japanese: "ゲーム内の4人のヨッシーの1人としてプレイしている場合、別のプレイヤーは、難しいジャンプに取り組むのに助けが必要な場合に備えて、背中に乗ることができます。",
+        segments: [
+          { text: "If someone’s playing as one of the four Yoshis in the game", translation: "ゲーム内の4人のヨッシーの1人としてプレイしている場合" },
+          { text: ", " },
+          { text: "another player can ride on their back", translation: "別のプレイヤーは背中に乗ることができます" },
+          { text: " " },
+          { text: "in case they need some help tackling a tough jump", translation: "難しいジャンプに取り組むのに助けが必要な場合に備えて" },
+          { text: "." },
+        ]
+      },
+      {
+        english: "Online multiplayer makes its 2D Mario debut in Wonder, but with less interaction between players than in local play.",
+        japanese: "オンラインマルチプレイヤーはワンダーで2Dマリオデビューを果たしますが、ローカルプレイよりもプレイヤー間の相互作用は少なくなっています。",
+        segments: [
+          { text: "Online multiplayer makes its 2D Mario debut in Wonder", translation: "オンラインマルチプレイヤーはワンダーで2Dマリオデビューを果たします" },
+          { text: ", " },
+          { text: "but with less interaction between players than in local play", translation: "しかし、ローカルプレイよりもプレイヤー間の相互作用は少なくなっています" },
+          { text: "." },
+        ]
+      },
+      {
+        english: "You’ll see semitransparent ghosts of your fellow platformers (platformists?) hopping around the level you’re in, but you won’t interact, share items and coins, or stomp on the same enemies as them like in local play.",
+        japanese: "あなたがいるレベルの周りをホッピングしている仲間のプラットフォーマー（プラットフォーミスト？）の半透明の幽霊が表示されますが、ローカルプレイのように対話したり、アイテムやコインを共有したり、同じ敵を踏みつけたりすることはありません。",
+        segments: [
+          { text: "You’ll see semitransparent ghosts of your fellow platformers (platformists?)", translation: "仲間のプラットフォーマー（プラットフォーミスト？）の半透明の幽霊が表示されます" },
+          { text: " " },
+          { text: "hopping around the level you’re in", translation: "あなたがいるレベルの周りをホッピングしている" },
+          { text: ", " },
+          { text: "but you won’t interact, share items and coins, or stomp on the same enemies as them", translation: "しかし、対話したり、アイテムやコインを共有したり、同じ敵を踏みつけたりすることはありません" },
+          { text: " " },
+          { text: "like in local play", translation: "ローカルプレイのように" },
+          { text: "." },
+        ]
+      },
+      {
+        english: "Instead, you can drop down a standee for others to bump into or use to revive themselves when playing in online mode.",
+        japanese: "代わりに、オンラインモードでプレイしているときに、他の人がぶつかったり、自分自身を復活させたりするために使用できるスタンディーをドロップダウンできます。",
+        segments: [
+          { text: "Instead", translation: "代わりに" },
+          { text: ", " },
+          { text: "you can drop down a standee", translation: "スタンディーをドロップダウンできます" },
+          { text: " " },
+          { text: "for others to bump into", translation: "他の人がぶつかるために" },
+          { text: " " },
+          { text: "or use to revive themselves", translation: "または自分自身を復活させるために使用する" },
+          { text: " " },
+          { text: "when playing in online mode", translation: "オンラインモードでプレイしているとき" },
+          { text: "." },
+        ]
+      },
+      {
+        english: "The only other notable online-only feature in Wonder is the Friend Race, where you race to the end of a level against other players in the same lobby as you.",
+        japanese: "ワンダーの他の唯一の注目すべきオンライン専用機能はフレンドレースで、同じロビーにいる他のプレイヤーとレベルの最後までレースします。",
+        segments: [
+          { text: "The only other notable online-only feature in Wonder is the Friend Race", translation: "ワンダーの他の唯一の注目すべきオンライン専用機能はフレンドレースです" },
+          { text: ", " },
+          { text: "where you race to the end of a level", translation: "レベルの最後までレースします" },
+          { text: " " },
+          { text: "against other players in the same lobby as you", translation: "同じロビーにいる他のプレイヤーと" },
+          { text: "." },
+        ]
+      },
+      {
+        english: "We only had a small amount of time to try this feature in the review period, but it’s a fun mode that’s sure to give Wonder a big online multiplayer presence once it hits store shelves.",
+        japanese: "レビュー期間中にこの機能を試す時間はわずかしかありませんでしたが、店頭に並んだらワンダーに大きなオンラインマルチプレイヤーの存在感を与えること間違いなしの楽しいモードです。",
+        segments: [
+          { text: "We only had a small amount of time to try this feature in the review period", translation: "レビュー期間中にこの機能を試す時間はわずかしかありませんでした" },
+          { text: ", " },
+          { text: "but it’s a fun mode", translation: "しかし、楽しいモードです" },
+          { text: " " },
+          { text: "that’s sure to give Wonder a big online multiplayer presence", translation: "ワンダーに大きなオンラインマルチプレイヤーの存在感を与えること間違いなし" },
+          { text: " " },
+          { text: "once it hits store shelves", translation: "店頭に並んだら" },
+          { text: "." },
+        ]
+      },
+      {
+        english: "As far as we could tell, Friend Races ran smoothly despite Nintendo’s famously stodgy online infrastructure.",
+        japanese: "私たちが知る限り、フレンドレースは任天堂の有名な古風なオンラインインフラストラクチャにもかかわらずスムーズに実行されました。",
+        segments: [
+          { text: "As far as we could tell", translation: "私たちが知る限り" },
+          { text: ", " },
+          { text: "Friend Races ran smoothly", translation: "フレンドレースはスムーズに実行されました" },
+          { text: " " },
+          { text: "despite Nintendo’s famously stodgy online infrastructure", translation: "任天堂の有名な古風なオンラインインフラストラクチャにもかかわらず" },
+          { text: "." },
+        ]
+      },
+      {
+        english: "Time will only tell if the mode will hold up under scrutiny once more players with varied connection speeds and strengths get their hands on the game.",
+        japanese: "さまざまな接続速度と強さを持つより多くのプレイヤーがゲームを手に入れたときに、モードが精査に耐えられるかどうかは時間が経てばわかります。",
+        segments: [
+          { text: "Time will only tell", translation: "時間が経てばわかります" },
+          { text: " " },
+          { text: "if the mode will hold up under scrutiny", translation: "モードが精査に耐えられるかどうか" },
+          { text: " " },
+          { text: "once more players with varied connection speeds and strengths get their hands on the game", translation: "さまざまな接続速度と強さを持つより多くのプレイヤーがゲームを手に入れたときに" },
+          { text: "." },
+        ]
+      },
+      {
+        english: "It’s hard not to gush about Super Mario Bros. Wonder.",
+        japanese: "スーパーマリオブラザーズワンダーについて絶賛しないのは難しいです。",
+        segments: [
+          { text: "It’s hard not to gush about", translation: "絶賛しないのは難しいです" },
+          { text: " " },
+          { text: "Super Mario Bros. Wonder", translation: "スーパーマリオブラザーズワンダー" },
+          { text: "." },
+        ]
+      },
+      {
+        english: "Even in its weakest moments, Wonder is an unexpected return to form that’s never content to rest on its laurels.",
+        japanese: "最も弱い瞬間でさえ、ワンダーは予想外の原点回帰であり、決してその栄光に安住することはありません。",
+        segments: [
+          { text: "Even in its weakest moments", translation: "最も弱い瞬間でさえ" },
+          { text: ", " },
+          { text: "Wonder is an unexpected return to form", translation: "ワンダーは予想外の原点回帰です" },
+          { text: " " },
+          { text: "that’s never content to rest on its laurels", translation: "決してその栄光に安住することはありません" },
+          { text: "." },
+        ]
+      },
+      {
+        english: "Bursting at the seams with creativity and charm in equal measure, this is a game best savored, because we may not get another like it for some time.",
+        japanese: "創造性と魅力が均等に詰まっており、これはしばらくの間他に類を見ないゲームなので、じっくり味わうのが一番です。",
+        segments: [
+          { text: "Bursting at the seams with creativity and charm in equal measure", translation: "創造性と魅力が均等に詰まっており" },
+          { text: ", " },
+          { text: "this is a game best savored", translation: "これはじっくり味わうのが一番のゲームです" },
+          { text: ", " },
+          { text: "because we may not get another like it for some time", translation: "なぜなら、しばらくの間他に類を見ないかもしれないからです" },
+          { text: "." },
+        ]
+      },
+      {
+        english: "Not only is it one of the best games on Nintendo Switch, but it deserves a place in the pantheon of lauded Mario games alongside the likes of Super Mario World and Super Mario Bros. 3.",
+        japanese: "Nintendo Switchで最高のゲームの1つであるだけでなく、スーパーマリオワールドやスーパーマリオブラザーズ3などの称賛されたマリオゲームのパンテオンにその場所を占めるに値します。",
+        segments: [
+          { text: "Not only is it one of the best games on Nintendo Switch", translation: "Nintendo Switchで最高のゲームの1つであるだけでなく" },
+          { text: ", " },
+          { text: "but it deserves a place in the pantheon of lauded Mario games", translation: "しかし、称賛されたマリオゲームのパンテオンにその場所を占めるに値します" },
+          { text: " " },
+          { text: "alongside the likes of Super Mario World and Super Mario Bros. 3", translation: "スーパーマリオワールドやスーパーマリオブラザーズ3などの" },
+          { text: "." },
+        ]
+      }
+    ],
+  };
