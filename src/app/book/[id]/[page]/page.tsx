@@ -41,7 +41,7 @@ export default async function BookPage({ params }: Props) {
     const { id, page } = await params;
     const { bookData, pageData } = await getData(id, page);
     return <BookPageView bookData={bookData} pageData={pageData} />;
-  } catch (error) {
+  } catch {
     // getData内でnotFoundが呼ばれるが、import自体が失敗する可能性もある
     notFound();
   }

@@ -1,5 +1,4 @@
 import { newsData } from "@/lib/data/news";
-import { NewsData, Line } from "@/lib/types";
 import { notFound } from "next/navigation";
 import React from "react";
 
@@ -19,8 +18,13 @@ async function getNews(id: string) {
   return news;
 }
 
-export default async function Page({ params }: { params: { id: string } }) {
-  const news = await getNews(params.id);
+type Props = {
+  params: Promise<{ id: string }>;
+};
+
+export default async function Page({ params }: Props) {
+  const { id } = await params;
+  const news = await getNews(id);
 
   return <NewsArticleView news={news} />;
 }

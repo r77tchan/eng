@@ -27,7 +27,7 @@ export default async function BookTableOfContents({ params }: Props) {
     const { id } = await params;
     const bookData = await getBookData(id);
     return <TableOfContentsView bookData={bookData} />;
-  } catch (error) {
+  } catch {
     notFound();
   }
 }
